@@ -14,27 +14,27 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
             <h1>Si puedes imaginarlo, <span class="red-text">podemos hacerlo.</span></h1>
             <div class="divider"></div>
             <p><strong>Llevamos más de 20 años ayudando a los clientes más exigentes a aumentar su visibilidad y la visibilidad de sus productos.</strong><br><br>La experiencia y el perfeccionismo nos han llevado a cumplir con unos altos estándares de calidad en el servicio y el producto.</p>
-        </div><img src="assets/images/Fabricacion---3.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 48vw, 50vw" srcset="assets/images/Fabricacion---3-p-500.jpeg 500w, assets/images/Fabricacion---3-p-1080.jpeg 1080w, assets/images/Fabricacion---3-p-1600.jpeg 1600w, assets/images/Fabricacion---3.jpg 1900w" alt="" class="background-image">
+        </div><img src="ui/assets/images/Fabricacion---3.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 48vw, 50vw" srcset="ui/assets/images/Fabricacion---3-p-500.jpeg 500w, assets/images/Fabricacion---3-p-1080.jpeg 1080w, assets/images/Fabricacion---3-p-1600.jpeg 1600w, assets/images/Fabricacion---3.jpg 1900w" alt="" class="background-image">
     </div>
     <div class="logo-section">
         <div class="container">
-            <div class="flex-logos-warp"><img src="assets/images/Nespresso-logo.svg" loading="lazy" alt="" class="client-logo"><img src="assets/images/tupinamba.svg" loading="lazy" alt="" class="client-logo"><img src="assets/images/prenatal.svg" loading="lazy" alt="" class="client-logo smaller"><img src="assets/images/lacaixa.svg" loading="lazy" alt="" class="client-logo"><img src="assets/images/apli.svg" loading="lazy" alt="" class="client-logo smaller"><img src="assets/images/hama.svg" loading="lazy" alt="" class="client-logo"><img src="assets/images/indo.svg" loading="lazy" alt="" class="client-logo"><img src="assets/images/yves.svg" loading="lazy" width="230" alt="" class="client-logo"><img src="assets/images/arcos.svg" loading="lazy" width="159" alt="" class="client-logo smaller"><img src="assets/images/LOGOS-EXTENSION-1.png" loading="lazy" width="159" alt="" class="client-logo bigger"><img src="assets/images/LOGOS-AMENITIES-NOVOTECNIC-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="assets/images/LOGOS-BBRAUN-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="assets/images/LOGO-MIMETICA-1.png" loading="lazy" width="159" alt="" class="client-logo smaller"></div>
+            <div class="flex-logos-warp"><img src="ui/assets/images/Nespresso-logo.svg" loading="lazy" alt="" class="client-logo"><img src="ui/assets/images/tupinamba.svg" loading="lazy" alt="" class="client-logo"><img src="ui/assets/images/prenatal.svg" loading="lazy" alt="" class="client-logo smaller"><img src="ui/assets/images/lacaixa.svg" loading="lazy" alt="" class="client-logo"><img src="ui/assets/images/apli.svg" loading="lazy" alt="" class="client-logo smaller"><img src="ui/assets/images/hama.svg" loading="lazy" alt="" class="client-logo"><img src="ui/assets/images/indo.svg" loading="lazy" alt="" class="client-logo"><img src="ui/assets/images/yves.svg" loading="lazy" width="230" alt="" class="client-logo"><img src="ui/assets/images/arcos.svg" loading="lazy" width="159" alt="" class="client-logo smaller"><img src="ui/assets/images/LOGOS-EXTENSION-1.png" loading="lazy" width="159" alt="" class="client-logo bigger"><img src="ui/assets/images/LOGOS-AMENITIES-NOVOTECNIC-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="ui/assets/images/LOGOS-BBRAUN-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="ui/assets/images/LOGO-MIMETICA-1.png" loading="lazy" width="159" alt="" class="client-logo smaller"></div>
         </div>
     </div>
     <div class="general-features wf-section">
         <div class="w-layout-grid features-grid">
-            <div class="feature-element"><img src="assets/images/network.svg" loading="lazy" alt="" class="feature-icon">
+            <div class="feature-element"><img src="ui/assets/images/network.svg" loading="lazy" alt="" class="feature-icon">
                 <h3 class="feature-title">Equipos y procesos bajo el mismo techo</h3>
             </div>
-            <div class="feature-element"><img src="assets/images/security.svg" loading="lazy" alt="" class="feature-icon">
+            <div class="feature-element"><img src="ui/assets/images/security.svg" loading="lazy" alt="" class="feature-icon">
                 <h3 class="feature-title">Materias primas sostenibles y acabados de alta calidad</h3>
             </div>
-            <div class="feature-element"><img src="assets/images/gear.svg" loading="lazy" alt="" class="feature-icon">
-                <h3 class="feature-title">Siempre a la última en  tecnologías y técnicas</h3><img src="assets/images/unnamed.png" loading="lazy" width="114" alt="">
+            <div class="feature-element"><img src="ui/assets/images/gear.svg" loading="lazy" alt="" class="feature-icon">
+                <h3 class="feature-title">Siempre a la última en  tecnologías y técnicas</h3><img src="ui/assets/images/unnamed.png" loading="lazy" width="114" alt="">
             </div>
         </div>
     </div>
-    <div class="section-5-copy wf-section"><img src="assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="assets/images/_CGF7982-comprimida-p-500.jpeg 500w, assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
+    <div class="section-5-copy wf-section"><img src="ui/assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="ui/assets/images/_CGF7982-comprimida-p-500.jpeg 500w, assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
         <div class="content-block-copy">
             <h2 class="red-text">Ven a visitarnos</h2>
             <div class="form-block w-form">
