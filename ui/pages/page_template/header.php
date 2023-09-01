@@ -1,6 +1,4 @@
-<?php
-    $project_url = "http://localhost/ncm/";
-?>
+<?php include "../../config/config.php"; ?>
 
 <!DOCTYPE html><!--  Last Published: Mon Jun 19 2023 17:41:03 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f6b88914d3eeabe45532bed" data-wf-site="5f6b88914d3eea4ffa532bec" lang="es">
