@@ -41,7 +41,7 @@ __p+='`),o}),q+=`';
  * _.keys
  * _.has
  * _.now
- * _.template (webflow: upgraded to 1.13.6)
+ * _.page_template (webflow: upgraded to 1.13.6)
  *
  * http://underscorejs.org
  * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors

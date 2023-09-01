@@ -1,0 +1,40 @@
+### rewrite configuration
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /ncm/
+ErrorDocument 404 pages/404.php
+DirectoryIndex pages/index.php
+
+### if it's not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+# Main website
+RewriteRule ^test?$ pages/test.php [L,NC,QSA]
+
+RewriteRule ^metodo?$ pages/metodo.php [L,NC,QSA]
+RewriteRule ^nosotros?$ pages/nosotros.php [L,NC,QSA]
+RewriteRule ^soluciones?$ pages/soluciones.php [L,NC,QSA]
+
+# Duraluxe
+RewriteRule ^duraluxe?$ pages//duraluxe/index.php [L,NC,QSA]
+RewriteRule ^duraluxe/mission?$ pages/duraluxe/mission.php [L,NC,QSA]
+RewriteRule ^duraluxe/acabados?$ pages/duraluxe/acabados.php [L,NC,QSA]
+RewriteRule ^duraluxe/historia?$ pages/duraluxe/historia.php [L,NC,QSA]
+RewriteRule ^duraluxe/mercados?$ pages/duraluxe/mercados.php [L,NC,QSA]
+RewriteRule ^duraluxe/porque?$ pages/duraluxe/porque.php [L,NC,QSA]
+RewriteRule ^duraluxe/soporte?$ pages/duraluxe/soporte.php [L,NC,QSA]
+RewriteRule ^duraluxe/contacto?$ pages/duraluxe/contacto.php [L,NC,QSA]
+
+# Duraluxe - Videos Youtube
+RewriteRule ^duraluxe/satinado?$ pages/duraluxe/acabados/satinado.php [L,NC,QSA]
+RewriteRule ^duraluxe/mate?$ pages/duraluxe/acabados/mate.php [L,NC,QSA]
+RewriteRule ^duraluxe/brillante?$ pages/duraluxe/acabados/brillante.php [L,NC,QSA]
+RewriteRule ^duraluxe/saltlake?$ pages/duraluxe/acabados/saltlake.php [L,NC,QSA]
+RewriteRule ^duraluxe/icetouch?$ pages/duraluxe/acabados/icetouch.php [L,NC,QSA]
+RewriteRule ^duraluxe/glow?$ pages/duraluxe/acabados/glow.php [L,NC,QSA]
+RewriteRule ^duraluxe/canvas?$ pages/duraluxe/acabados/canvas.php [L,NC,QSA]
+RewriteRule ^duraluxe/wallsky?$ pages/duraluxe/acabados/wallsky.php [L,NC,QSA]
+RewriteRule ^duraluxe/cepillado?$ pages/duraluxe/acabados/cepillado.php [L,NC,QSA]
