@@ -5,12 +5,12 @@
     </div>
     <div class="sitemap-section">
         <div class="w-layout-grid sitemap-grid">
-            <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img src="images/Logo.svg" loading="lazy" alt="" class="image"></a>
+            <a href="<?php echo $project_url; ?>" aria-current="page" class="brand w-nav-brand w--current"><img src="assets/images/Logo.svg" loading="lazy" alt="" class="image"></a>
             <div class="sitemap-group">
                 <div class="sitemap-title">NCM</div>
-                <a href="soluciones.html" class="sitemap-link">Servicios</a>
-                <a href="metodo.html" class="sitemap-link">Nuestro Método</a>
-                <a href="nosotros.html" class="sitemap-link final-element">Nosotros</a>
+                <a href="soluciones" class="sitemap-link">Servicios</a>
+                <a href="metodo" class="sitemap-link">Nuestro Método</a>
+                <a href="nosotros" class="sitemap-link final-element">Nosotros</a>
             </div>
             <div class="sitemap-group">
                 <div class="sitemap-title">Contacta</div>
@@ -26,6 +26,6 @@
     </div>
 </div>
 <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f6b88914d3eea4ffa532bec" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="js/webflow.js" type="text/javascript"></script>
+<script src="assets/js/webflow.js" type="text/javascript"></script>
 </body>
 </html>
