@@ -20,7 +20,7 @@ RewriteRule ^soluciones?$ ui/pages/soluciones.php?page=soluciones [L,NC,QSA]
 
 # Duraluxe
 RewriteRule ^duraluxe?$ ui/pages//duraluxe/index.php?page=duraluxe [L,NC,QSA]
-RewriteRule ^duraluxe/mission?$ ui/pages/duraluxe/mission.php?page=duraluxe [L,NC,QSA]
+RewriteRule ^duraluxe/mision?$ ui/pages/duraluxe/mision.php?page=duraluxe [L,NC,QSA]
 RewriteRule ^duraluxe/acabados?$ ui/pages/duraluxe/acabados.php?page=duraluxe [L,NC,QSA]
 RewriteRule ^duraluxe/historia?$ ui/pages/duraluxe/historia.php?page=duraluxe [L,NC,QSA]
 RewriteRule ^duraluxe/mercados?$ ui/pages/duraluxe/mercados.php?page=duraluxe [L,NC,QSA]
