@@ -5,7 +5,8 @@
 div.duraluxe-faqs-header,
 div.duraluxe-guidelines-header,
 div.duraluxe-catalogue-header,
-div.duraluxe-contact-header
+div.duraluxe-contact-header,
+div.why
 {
     background-color: #eff2f3;
     padding-top: 25vh;
@@ -19,6 +20,10 @@ div.duraluxe-contact-header
 }
 
 div.duraluxe-contact-header {
+    background-image: url(../images/Fabricacion---3.jpg);
+}
+
+div.duraluxe-why-header {
     background-image: url(../images/Fabricacion---3.jpg);
 }
 

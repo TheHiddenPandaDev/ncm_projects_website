@@ -22,14 +22,14 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                 <h2>Comprensión del reto</h2>
                 <p class="no-bottom-margin">Realizamos un briefing en profundidad para entender los retos y los objetivos del proyecto.</p>
             </div>
-            <div id="w-node-c76038a8-a80c-ebaa-eb98-72d504cbb961-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/sigmund-elHKkgom1VU-unsplash.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/sigmund-elHKkgom1VU-unsplash-p-500.jpg 500w, assets/images/sigmund-elHKkgom1VU-unsplash.jpg 640w" alt="" class="background-image-copy">
+            <div id="w-node-c76038a8-a80c-ebaa-eb98-72d504cbb961-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/sigmund-elHKkgom1VU-unsplash.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/sigmund-elHKkgom1VU-unsplash-p-500.jpg 500w,<?php echo $project_url; ?>ui/assets/images/sigmund-elHKkgom1VU-unsplash.jpg 640w" alt="" class="background-image-copy">
                 <div class="big-number">1</div>
             </div>
         </div>
     </div>
     <div class="method-step wf-section">
         <div class="w-layout-grid grid-4">
-            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Diseny---2.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Diseny---2-p-500.jpeg 500w, assets/images/Diseny---2-p-1080.jpeg 1080w, assets/images/Diseny---2-p-1600.jpeg 1600w, assets/images/Diseny---2.jpg 1900w" alt="" class="background-image-copy">
+            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Diseny---2.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Diseny---2-p-500.jpeg 500w,<?php echo $project_url; ?>ui/assets/images/Diseny---2-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Diseny---2-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Diseny---2.jpg 1900w" alt="" class="background-image-copy">
                 <div class="big-number _2">2</div>
             </div>
             <div class="div-block-7">
@@ -44,14 +44,14 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                 <h2>Creación de Prototipos</h2>
                 <p class="no-bottom-margin">Creamos prototipos realistas y a escala real, que ayudan al cliente a decidir y nos brindan información vital a la hora de desarrollar el proyecto.</p>
             </div>
-            <div id="w-node-f4b79415-73ca-d966-1a90-539128d33701-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---10.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---10-p-500.jpeg 500w, assets/images/Fabricacion---10-p-1080.jpeg 1080w, assets/images/Fabricacion---10-p-1600.jpeg 1600w, assets/images/Fabricacion---10.jpg 1900w" alt="" class="background-image-copy">
+            <div id="w-node-f4b79415-73ca-d966-1a90-539128d33701-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---10.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---10-p-500.jpeg 500w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---10-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---10-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---10.jpg 1900w" alt="" class="background-image-copy">
                 <div class="big-number">3</div>
             </div>
         </div>
     </div>
     <div class="method-step wf-section">
         <div class="w-layout-grid grid-4">
-            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---5.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---5-p-1080.jpeg 1080w, assets/images/Fabricacion---5-p-1600.jpeg 1600w, assets/images/Fabricacion---5.jpg 1900w" alt="" class="background-image-copy">
+            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---5.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---5-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---5-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---5.jpg 1900w" alt="" class="background-image-copy">
                 <div class="big-number _2">4</div>
             </div>
             <div class="div-block-7">
@@ -66,14 +66,14 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                 <h2>Producción</h2>
                 <p class="no-bottom-margin">Fabricamos el proyecto nosotros mismos manteniendo el control en todos los procesos y asegurando la máxima calidad de acabados.</p>
             </div>
-            <div id="w-node-_4d8d5293-caee-cad5-38b7-23aced010bd0-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---13.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---13-p-1080.jpeg 1080w, assets/images/Fabricacion---13-p-1600.jpeg 1600w, assets/images/Fabricacion---13.jpg 1900w" alt="" class="background-image-copy">
+            <div id="w-node-_4d8d5293-caee-cad5-38b7-23aced010bd0-11f3d2bc" class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---13.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---13-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---13-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Fabricacion---13.jpg 1900w" alt="" class="background-image-copy">
                 <div class="big-number">5</div>
             </div>
         </div>
     </div>
     <div class="method-step wf-section">
         <div class="w-layout-grid grid-4">
-            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8-p-1080.jpeg 1080w, ui/assets/images/Mobiliario---8-p-1600.jpeg 1600w, assets/images/Mobiliario---8.jpg 1900w" alt="" class="background-image-copy">
+            <div class="div-block-8"><img src="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, 42vw" srcset="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Mobiliario---8-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Mobiliario---8.jpg 1900w" alt="" class="background-image-copy">
                 <div class="big-number _2">6</div>
             </div>
             <div class="div-block-7">
@@ -102,7 +102,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                 <h1>Una combinación infinita de experiencias y sensaciones</h1>
                 <p>La calidad y variedad de nuestros materiales nos permite crear experiencias únicas y exclusivas para el comprador. Los acabados y el tacto de los productos transmite calidad y exclusividad.</p>
             </div>
-            <div class="div-block-9"><img src="<?php echo $project_url; ?>ui/assets/images/1.2.2-580x550.jpg" loading="lazy" height="" sizes="(max-width: 479px) 70vw, 250px" srcset="<?php echo $project_url; ?>ui/assets/images/1.2.2-580x550-p-500.jpeg 500w, assets/images/1.2.2-580x550.jpg 580w" alt="" class="absolute-materiales"><img src="<?php echo $project_url; ?>ui/assets/images/particle-boards-1500347182-3117760.jpeg" loading="lazy" height="" alt="" class="absolute-materiales _2"><img src="<?php echo $project_url; ?>ui/assets/images/Fluor2.jpg" loading="lazy" height="" sizes="(max-width: 479px) 70vw, 327px" srcset="<?php echo $project_url; ?>ui/assets/images/Fluor2-p-500.jpeg 500w, assets/images/Fluor2.jpg 580w" alt="" class="absolute-materiales _3"></div>
+            <div class="div-block-9"><img src="<?php echo $project_url; ?>ui/assets/images/1.2.2-580x550.jpg" loading="lazy" height="" sizes="(max-width: 479px) 70vw, 250px" srcset="<?php echo $project_url; ?>ui/assets/images/1.2.2-580x550-p-500.jpeg 500w,<?php echo $project_url; ?>ui/assets/images/1.2.2-580x550.jpg 580w" alt="" class="absolute-materiales"><img src="<?php echo $project_url; ?>ui/assets/images/particle-boards-1500347182-3117760.jpeg" loading="lazy" height="" alt="" class="absolute-materiales _2"><img src="<?php echo $project_url; ?>ui/assets/images/Fluor2.jpg" loading="lazy" height="" sizes="(max-width: 479px) 70vw, 327px" srcset="<?php echo $project_url; ?>ui/assets/images/Fluor2-p-500.jpeg 500w,<?php echo $project_url; ?>ui/assets/images/Fluor2.jpg 580w" alt="" class="absolute-materiales _3"></div>
         </div>
     </div>
     <div class="logo-section">
