@@ -14,7 +14,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
             <h1>Si puedes imaginarlo, <span class="red-text">podemos hacerlo.</span></h1>
             <div class="divider"></div>
             <p><strong>Llevamos más de 20 años ayudando a los clientes más exigentes a aumentar su visibilidad y la visibilidad de sus productos.</strong><br><br>La experiencia y el perfeccionismo nos han llevado a cumplir con unos altos estándares de calidad en el servicio y el producto.</p>
-        </div><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---3.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 48vw, 50vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---3-p-500.jpeg 500w, assets/images/Fabricacion---3-p-1080.jpeg 1080w, assets/images/Fabricacion---3-p-1600.jpeg 1600w, assets/images/Fabricacion---3.jpg 1900w" alt="" class="background-image">
+        </div><img src="<?php echo $project_url; ?>ui/assets/images/Fabricacion---3.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 48vw, 50vw" srcset="<?php echo $project_url; ?>ui/assets/images/Fabricacion---3-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/Fabricacion---3-p-1080.jpeg 1080w, <?php echo $project_url; ?>ui/assets/images/Fabricacion---3-p-1600.jpeg 1600w, <?php echo $project_url; ?>ui/assets/images/Fabricacion---3.jpg 1900w" alt="" class="background-image">
     </div>
     <div class="logo-section">
         <div class="container">
@@ -34,7 +34,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
             </div>
         </div>
     </div>
-    <div class="section-5-copy wf-section"><img src="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida-p-500.jpeg 500w, assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
+    <div class="section-5-copy wf-section"><img src="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
         <div class="content-block-copy">
             <h2 class="red-text">Ven a visitarnos</h2>
             <div class="form-block w-form">
