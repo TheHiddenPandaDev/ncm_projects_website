@@ -46,8 +46,8 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
     <p>Los paneles Duraluxe® al no ser compuesto
 
     <h2>100% RECICLABLE</h2>
-    <p>Los paneles Duraluxe® al no ser compuestos de diferentes materiales proporcionan una excelente capacidad de reciclaje.
-    <p>Como si una lata de refresco fuera, podemos garantizar un ciclo de vida completo pudiendo reciclar el aluminio de manera infinita sin perder sus propiedades.
+    <p>Los paneles Duraluxe® al no ser compuestos de diferentes materiales proporcionan una excelente capacidad de reciclaje.</p>
+    <p>Como si una lata de refresco fuera, podemos garantizar un ciclo de vida completo pudiendo reciclar el aluminio de manera infinita sin perder sus propiedades.</p>
 </div>
 
 
