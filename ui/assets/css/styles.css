@@ -34,6 +34,13 @@ div.duraluxe-history-header {
     color: #FFFFFF;
 }
 
+div.duraluxe-mission-header {
+    background-image: url('../images/duraluxe/mission/background.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
 div.duraluxe-faqs-section div.faq div.faq-question {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -180,9 +187,9 @@ div.duraluxe-contact form#wf-form-Contact-Form div.wants-sample label {
 /* DURALUXE - PORQUE */
 /*************/
 div.duralex-why,
-div.duralex-history {
-    margin-bottom: 60px;
-    padding: 70px 53px;
+div.duralex-history,
+div.duralex-mission {
+    padding: 70px 53px 0px;
 }
 
 div.duralex-why h2 a {
@@ -202,6 +209,7 @@ div.duralex-why h2 a i {
 }
 
 div.duralex-why p,
-div.duralex-history p {
+div.duralex-history p,
+div.duralex-mission p {
     max-width: initial;
 }
