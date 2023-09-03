@@ -23,6 +23,10 @@
     <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/brands.css" rel="stylesheet">
     <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/solid.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
     <link href="<?php echo $project_url; ?>ui/assets/css/styles.css?timestamp=<?php echo time(); ?>" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com" rel="preconnect">
