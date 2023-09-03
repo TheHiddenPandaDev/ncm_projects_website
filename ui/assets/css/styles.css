@@ -12,7 +12,7 @@ div.why
     padding-top: 25vh;
     padding-left: 44px;
     padding-right: 44px;
-    background-image: url(../images/duraluxe/faqs/duraluxe_faqs.png);
+    background-image: url('../images/duraluxe/faqs/duraluxe_faqs.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
@@ -20,11 +20,18 @@ div.why
 }
 
 div.duraluxe-contact-header {
-    background-image: url(../images/Fabricacion---3.jpg);
+    background-image: url('../images/Fabricacion---3.jpg');
 }
 
 div.duraluxe-why-header {
-    background-image: url(../images/Fabricacion---5.jpg);
+    background-image: url('../images/Fabricacion---5.jpg');
+}
+
+div.duraluxe-history-header {
+    background-image: url('../images/duraluxe/historia/background.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
 }
 
 div.duraluxe-faqs-section div.faq div.faq-question {
@@ -172,7 +179,8 @@ div.duraluxe-contact form#wf-form-Contact-Form div.wants-sample label {
 /*************/
 /* DURALUXE - PORQUE */
 /*************/
-div.duralex-why {
+div.duralex-why,
+div.duralex-history {
     margin-bottom: 60px;
     padding: 70px 53px;
 }
@@ -193,6 +201,7 @@ div.duralex-why h2 a i {
     margin-left: -2px;
 }
 
-div.duralex-why p {
+div.duralex-why p,
+div.duralex-history p {
     max-width: initial;
 }
