@@ -10,7 +10,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 
 <div class="section-3 wf-section duraluxe-faqs-header">
     <div class="content-block">
-        <h1>Faqs</span></h1>
+        <h1>Faqs</h1>
         <div class="divider"></div>
     </div>
 </div>

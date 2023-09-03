@@ -5,7 +5,8 @@
 div.duraluxe-faqs-header,
 div.duraluxe-guidelines-header,
 div.duraluxe-catalogue-header,
-div.duraluxe-contact-header
+div.duraluxe-contact-header,
+div.why
 {
     background-color: #eff2f3;
     padding-top: 25vh;
@@ -20,6 +21,10 @@ div.duraluxe-contact-header
 
 div.duraluxe-contact-header {
     background-image: url(../images/Fabricacion---3.jpg);
+}
+
+div.duraluxe-why-header {
+    background-image: url(../images/Fabricacion---5.jpg);
 }
 
 div.duraluxe-faqs-section div.faq div.faq-question {
@@ -162,4 +167,32 @@ div.duraluxe-contact form#wf-form-Contact-Form div.wants-sample label {
     font-size: 16px;
     font-weight: 200;
     display: inline;
+}
+
+/*************/
+/* DURALUXE - PORQUE */
+/*************/
+div.duralex-why {
+    margin-bottom: 60px;
+    padding: 70px 53px;
+}
+
+div.duralex-why h2 a {
+    color: #e0004d;
+}
+
+div.duralex-why h2 a:hover {
+    text-decoration: underline;
+}
+
+div.duralex-why h2 a i {
+    color: #00303c;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+div.duralex-why p {
+    max-width: initial;
 }
