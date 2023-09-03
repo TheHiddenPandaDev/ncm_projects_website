@@ -1,0 +1,148 @@
+/*************/
+/* DURALUXE - FAQS */
+/*************/
+
+div.duraluxe-faqs-header,
+div.duraluxe-guidelines-header,
+div.duraluxe-catalogue-header
+{
+    background-color: #eff2f3;
+    padding-top: 25vh;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-image: url(../images/duraluxe/faqs/duraluxe_faqs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: #e0004d;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100px;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    outline: 0;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question div.faq-number {
+    width: 130px!important;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #e0004d;
+    font: 50px / 1.2em Barlow, sans-serif;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    font-weight: bold;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question div.faq-text {
+    width: calc(100% - 130px);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding: 36px;
+    color: #e0004d;
+    font: 25px / 1.2em Barlow, sans-serif;
+    font-weight: bold;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-response {
+    padding: 20px 40px 30px;
+    background-color: transparent;
+    color: #00303c !important;
+    font: bold 16px / 1.4em Barlow, sans-serif;
+    display: none;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question:hover div.faq-number {
+    background-color: #e0004d !important;
+    color: white;
+}
+
+/*************/
+/* DURALUXE - MANUAL DE USO */
+/*************/
+
+div.duraluxe-guidelines-section {
+    position: relative;
+    left: 60px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+    margin: 16px 0 50px calc((100% - 980px) * 0.5);
+}
+
+div.duraluxe-guidelines-section iframe {
+    width: 860px;
+    height: 758px;
+}
+
+/*************/
+/* DURALUXE - CATALOGO */
+/*************/
+
+div.duraluxe-catalogue-section {
+    text-align: center;
+}
+
+div.duraluxe-catalogue-section iframe {
+    width: 985px;
+    height: 497px;
+    position: relative;
+    margin: 0 auto;
+}
+
+div.duraluxe-catalogue-section div.catalogue-link {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+div.duraluxe-catalogue-section div.catalogue-link .button-2 {
+    display: unset;
+    border: 0 !important;
+}
+div.duraluxe-catalogue-section div.catalogue-link .button-2:hover {
+    border: 3px solid #e0004d !important;
+}
+
+@media screen and (max-width: 991px) {
+    div.duraluxe-catalogue-section iframe {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: initial;
+        margin: 0 auto 20px;
+    }
+}
