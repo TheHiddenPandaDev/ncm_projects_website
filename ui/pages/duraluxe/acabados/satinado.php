@@ -8,7 +8,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 
 <?php include "../../page_template/header.php"; ?>
 
-<div class="section-3 wf-section duraluxe-finishes-header cover-background">
+<div class="section-3 wf-section duraluxe-finishes-header cover-background header-section">
     <div class="bg-black"></div>
     <div class="content-block">
         <div class="subheading">acabado satinado</div>
