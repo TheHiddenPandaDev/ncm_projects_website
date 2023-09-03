@@ -20,7 +20,11 @@
     <link href="<?php echo $project_url; ?>ui/assets/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $project_url; ?>ui/assets/css/webflow.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $project_url; ?>ui/assets/css/network-creativity-manufacturing.webflow.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo $project_url; ?>ui/assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="<?php echo $project_url; ?>ui/assets/css/styles.css?timestamp=<?php echo time(); ?>" rel="stylesheet" type="text/css">
+
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
