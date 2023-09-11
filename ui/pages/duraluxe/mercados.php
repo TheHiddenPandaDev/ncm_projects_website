@@ -18,129 +18,139 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 
 <div class="duralex-markets wf-section">
 
-    <h2>CONFIAMOS EN SU IMAGINACIÓN ¡SIEMPRE SIN LÍMITES!</h2>
-    <h3>INFINIDAD DE USOS</h3>
-    <p>Le presentamos algunos usos, siendo conscientes de la libertad que permite un producto como este. Nuestro servicio de atención al cliente le ofrece el soporte necesario para que usted pueda dar rienda suelta a su imaginación. Le esperamos a usted y a sus ideas.</p>
-    <p>Recuerde, siempre sin límites.</p>
+    <div class="container">
+        <h2>CONFIAMOS EN SU IMAGINACIÓN ¡SIEMPRE SIN LÍMITES!</h2>
+        <h3>INFINIDAD DE USOS</h3>
+        <p>Le presentamos algunos usos, siendo conscientes de la libertad que permite un producto como este. Nuestro servicio de atención al cliente le ofrece el soporte necesario para que usted pueda dar rienda suelta a su imaginación. Le esperamos a usted y a sus ideas.</p>
+        <p>Recuerde, siempre sin límites.</p>
 
-    <div class="gallery photography">
-        <h4>Fotografia</h4>
-        <section id="image-carousel-photography" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/fotografia/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+        <div class="row">
+            <div class="gallery photography col-md-6">
+                <div class="title"><h2>Fotografia</h2></div>
+                <section id="image-carousel-photography" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=10; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/fotografia/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
 
-    <div class="gallery signage">
-        <h4>Señaletica</h4>
-        <section id="image-carousel-signage"class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/senaletica/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+            <div class="gallery signage col-md-6">
+                <div class="title"><h2>Señaletica</h2></div>
+                <section id="image-carousel-signage"class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=10; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/senaletica/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
+        </div>
 
-    <div class="gallery interior-design">
-        <h4>Interiorismo</h4>
-        <section id="image-carousel-interior-design" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/interiorismo/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+        <div class="row">
+            <div class="gallery interior-design col-md-6">
+                <div class="title"><h2>Interiorismo</h2></div>
+                <section id="image-carousel-interior-design" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=12; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/interiorismo/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
 
-    <div class="gallery architecture-outdoorfacades">
-        <h4>Arquitectura / Fachadas</h4>
-        <section id="image-carousel-architecture-outdoorfacades" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/arquitectura_fachadas/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+            <div class="gallery architecture-outdoorfacades col-md-6">
+                <div class="title"><h2>Arquitectura / Fachadas</h2></div>
+                <section id="image-carousel-architecture-outdoorfacades" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=10; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/arquitectura_fachadas/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
+        </div>
 
-    <div class="gallery bendableproducts">
-        <h4>Productos flexibles</h4>
-        <section id="image-carousel-bendableproducts" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/productos_flexibles/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+        <div class="row">
+            <div class="gallery bendableproducts col-md-6">
+                <div class="title"><h2>Productos flexibles</h2></div>
+                <section id="image-carousel-bendableproducts" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=30; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/productos_flexibles/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
 
-    <div class="gallery backsplash">
-        <h4>Protectores contra salpicaduras</h4>
-        <section id="image-carousel-backsplash" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/protectores_contra_salpicaduras/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+            <div class="gallery backsplash col-md-6">
+                <div class="title"><h2>Protectores contra salpicaduras</h2></div>
+                <section id="image-carousel-backsplash" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=14; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/protectores_contra_salpicaduras/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
+        </div>
 
-    <div class="gallery showerwalls">
-        <h4>Paredes de ducha</h4>
-        <section id="image-carousel-showerwalls" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/paredes_de_ducha/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+        <div class="row">
+            <div class="gallery showerwalls col-md-6">
+                <div class="title"><h2>Paredes de ducha</h2></div>
+                <section id="image-carousel-showerwalls" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=10; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/paredes_de_ducha/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
-    </div>
 
-    <div class="gallery ceilings">
-        <h4>Techos</h4>
-        <section id="image-carousel-ceilings" class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <?php for($i=1; $i<=30; $i++){ ?>
-                        <li class="splide__slide">
-                            <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/techos/<?php echo $i; ?>.webp">
-                        </li>
-                    <?php } ?>
-                </ul>
+            <div class="gallery ceilings col-md-6">
+                <div class="title"><h2>Techos</h2></div>
+                <section id="image-carousel-ceilings" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <?php for($i=1; $i<=12; $i++){ ?>
+                                <li class="splide__slide">
+                                    <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/techos/<?php echo $i; ?>.webp">
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
     </div>
 </div>
 
