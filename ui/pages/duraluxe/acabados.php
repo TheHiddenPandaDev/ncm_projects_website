@@ -15,110 +15,101 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
         <h1>¡Conoce nuestros nuevos acabados, ideas para tus productos y mucho más!</h1>
         <div class="divider"></div>
     </div>
-
 </div>
 
-<div class="duralex-finishes wf-section">
-
-    <h2>CARACTERÍSTICAS</h2>
-    <p>Aluminio de primera calidad de 1,4 mm</p>
-    <p>RecubrimIento de 152 micras. (2 capas)</p>
-    <p>Medida máxima del panel 1200x2400mm</p>
-    <p>Sin disolventes / Inodoro</p>
-    <p>Máxima flexibilidad</p>
-    <p>Nueve acabados</p>
-    <p>Se puede cortar antes/después de sublimar _ No son inflamables</p>
-    <p>Antimicrobiano</p>
-    <p>5 años de garantia para exteriores con resistencia a los rayos UV</p>
-    <p>Mantiene colores vibrantes y claridad, incluso bajo la luz solar directa _ Anti-grafitis / anti-vandalismo</p>
-    <p>Producto 100% reciclable</p>
-    <p>Fácil de limpiar y desinfectar</p>
-
-</div>
-
-<div class="duralex-finishes wf-section">
-
+<div class="container">
     <div class="row">
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/satinado">
-                <div class="black-cover"></div>
-                <div class="cover satinado"></div>
-                <div class="title">SATINADO</div>
-            </a>
+        <div class="duralex-finishes wf-section col-xl">
+            <h2>CARACTERÍSTICAS</h2>
+            <p>Aluminio de primera calidad de 1,4 mm</p>
+            <p>RecubrimIento de 152 micras. (2 capas)</p>
+            <p>Medida máxima del panel 1200x2400mm</p>
+            <p>Sin disolventes / Inodoro</p>
+            <p>Máxima flexibilidad</p>
+            <p>Nueve acabados</p>
+            <p>Se puede cortar antes/después de sublimar _ No son inflamables</p>
+            <p>Antimicrobiano</p>
+            <p>5 años de garantia para exteriores con resistencia a los rayos UV</p>
+            <p>Mantiene colores vibrantes y claridad, incluso bajo la luz solar directa _ Anti-grafitis / anti-vandalismo</p>
+            <p>Producto 100% reciclable</p>
+            <p>Fácil de limpiar y desinfectar</p>
         </div>
 
+        <div class="duralex-finishes wf-section col-xl">
 
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/mate">
-                <div class="black-cover"></div>
-                <div class="cover mate"></div>
-                <div class="title">MATE</div>
-            </a>
-        </div>
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/brillante">
-                <div class="black-cover"></div>
-                <div class="cover brillante"></div>
-                <div class="title">BRILLANTE</div>
-            </a>
+            <div class="container">
+                <div class="row">
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/satinado">
+                            <div class="black-cover"></div>
+                            <div class="cover satinado"></div>
+                            <div class="title">SATINADO</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/mate">
+                            <div class="black-cover"></div>
+                            <div class="cover mate"></div>
+                            <div class="title">MATE</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/brillante">
+                            <div class="black-cover"></div>
+                            <div class="cover brillante"></div>
+                            <div class="title">BRILLANTE</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/saltlake">
+                            <div class="black-cover"></div>
+                            <div class="cover salt-lake"></div>
+                            <div class="title">SALT LAKE</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/icetouch">
+                            <div class="black-cover"></div>
+                            <div class="cover ice-touch"></div>
+                            <div class="title">ICE TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/glow">
+                            <div class="black-cover"></div>
+                            <div class="cover glow"></div>
+                            <div class="title">GLOW</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/canvas">
+                            <div class="black-cover"></div>
+                            <div class="cover canvas"></div>
+                            <div class="title">CANVAS</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/wallsky">
+                            <div class="black-cover"></div>
+                            <div class="cover wallsky"></div>
+                            <div class="title">WALLSKY</div>
+                        </a>
+                    </div>
+                    <div class="finish col">
+                        <a href="<?php echo $project_url; ?>duraluxe/cepillado">
+                            <div class="black-cover"></div>
+                            <div class="cover cepillado"></div>
+                            <div class="title">CEPILLADO</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="row">
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/saltlake">
-                <div class="black-cover"></div>
-                <div class="cover salt-lake"></div>
-                <div class="title">SALT LAKE</div>
-            </a>
-        </div>
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/icetouch">
-                <div class="black-cover"></div>
-                <div class="cover ice-touch"></div>
-                <div class="title">ICE TOUCH</div>
-            </a>
-        </div>
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/glow">
-                <div class="black-cover"></div>
-                <div class="cover glow"></div>
-                <div class="title">GLOW</div>
-            </a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/canvas">
-                <div class="black-cover"></div>
-                <div class="cover canvas"></div>
-                <div class="title">CANVAS</div>
-            </a>
-        </div>
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/wallsky">
-                <div class="black-cover"></div>
-                <div class="cover wallsky"></div>
-                <div class="title">WALLSKY</div>
-            </a>
-        </div>
-
-        <div class="finish">
-            <a href="<?php echo $project_url; ?>duraluxe/cepillado">
-                <div class="black-cover"></div>
-                <div class="cover cepillado"></div>
-                <div class="title">CEPILLADO</div>
-            </a>
-        </div>
-    </div>
-
 </div>
 
 
