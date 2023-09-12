@@ -71,3 +71,32 @@
         <div class="w-icon-nav-menu"></div>
     </div>
 </div>
+<?php if($page == "duraluxe"){ ?>
+    <div class="duraluxe-menu-button w-nav-button-duraluxe" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+        <div class="w-icon-nav-menu"></div>
+    </div>
+    <div class="duraluxe-menu">
+        <div class="container w-container">
+            <nav role="secondary-navigation" class="">
+                <a href="<?php echo $project_url; ?>duraluxe/mision" class="nav-link w-nav-link <?php if($subpage == "mision") echo 'w--current'; ?> ">Misión</a>
+                <a href="<?php echo $project_url; ?>duraluxe/acabados" class="nav-link w-nav-link <?php if($subpage == "acabados") echo 'w--current'; ?> ">Acabados</a>
+                <a href="<?php echo $project_url; ?>duraluxe/historia" class="nav-link w-nav-link <?php if($subpage == "historia") echo 'w--current'; ?> ">Historia</a>
+                <a href="<?php echo $project_url; ?>duraluxe/mercados" class="nav-link w-nav-link <?php if($subpage == "mercados") echo 'w--current'; ?> ">Mercados</a>
+                <a href="<?php echo $project_url; ?>duraluxe/porque" class="nav-link w-nav-link <?php if($subpage == "porque") echo 'w--current'; ?> ">Porque</a>
+                <div class="dropdown nav-link w-nav-lin">
+                    <span class="nav-link <?php if($subpage == "soporte") echo 'w--current'; ?> ">
+                        Soporte
+                        <i class="fa-solid fa-caret-down"></i>
+                    </span>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="<?php echo $project_url; ?>duraluxe/soporte" class="nav-link">Manual de uso</a></li>
+                            <li><a href="<?php echo $project_url; ?>duraluxe/soporte/catalogo" class="nav-link">Catálogo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="<?php echo $project_url; ?>duraluxe/contacto" class="nav-link w-nav-link <?php if($subpage == "contacto") echo 'w--current'; ?> ">Contacto</a>
+            </nav>
+        </div>
+    </div>
+<?php } ?>

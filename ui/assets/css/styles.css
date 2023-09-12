@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 div.header-section div.bg-black {
     position: absolute;
     width: 100%;
@@ -359,4 +363,107 @@ div.duralex-markets div.gallery h2 {
 .splide__slide img {
     width: 100%;
     height: auto;
+}
+
+/*************/
+/* DURALUXE - MENU */
+/*************/
+
+a.nav-link.w-nav-link.w--nav-link-open {
+    margin-left: 20px;
+}
+
+a.nav-link.w-nav-link.w--current.w--nav-link-open {
+    color: #FFF;
+}
+
+div.duraluxe-menu,
+div.duraluxe-menu-button
+{
+    background-color: #00303c;
+    color: #FFF;
+    padding: 20px 0;
+    position: relative;
+}
+
+div.duraluxe-menu-button {
+    text-align: right;
+    padding: 18px;
+    font-size: 24px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.duraluxe-menu nav {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+div.duraluxe-menu nav .nav-link.w--current {
+    font-weight: bold;
+}
+
+
+div.duraluxe-menu nav .dropdown span.nav-link{
+   cursor: pointer;
+}
+
+div.duraluxe-menu nav .dropdown span i {
+    margin-left: 5px;
+}
+
+div.duraluxe-menu nav div.sub-menu {
+    position: absolute;
+    bottom: -116px;
+    width: 200px;
+    background-color: #00303c;
+    text-align: left;
+    display: none;
+    z-index: 999;
+}
+
+div.duraluxe-menu nav div.sub-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+div.duraluxe-menu nav div.sub-menu ul li {
+    margin-bottom: 1rem;
+}
+
+div.duraluxe-menu nav div.sub-menu ul li a {
+    text-align: center;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 991px){
+
+    div.duraluxe-menu {
+        display: none;
+    }
+
+    div.duraluxe-menu nav {
+        display: block;
+    }
+    div.duraluxe-menu nav .nav-link {
+        margin-bottom: 10px;
+    }
+
+    div.duraluxe-menu nav div.sub-menu {
+        position: initial;
+    }
+
+    div.duraluxe-menu nav div.sub-menu ul li a {
+        text-align: left;
+        margin-left: 20px;
+    }
 }
