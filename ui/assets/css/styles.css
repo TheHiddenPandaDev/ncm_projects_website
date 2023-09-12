@@ -369,6 +369,10 @@ div.duralex-markets div.gallery h2 {
 /* DURALUXE - MENU */
 /*************/
 
+div.duraluxe-menu-button {
+    display: none;
+}
+
 a.nav-link.w-nav-link.w--nav-link-open {
     margin-left: 20px;
 }
@@ -446,6 +450,10 @@ div.duraluxe-menu nav div.sub-menu ul li a {
 }
 
 @media screen and (max-width: 991px){
+
+    div.duraluxe-menu-button {
+        display: block;
+    }
 
     div.duraluxe-menu {
         display: none;
