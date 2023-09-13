@@ -1,13 +1,45 @@
+<?php include "../page_template/header.php"; ?>
+<?php include '../../../common/common_functions.php'; ?>
 <?php
 // Seo config
 
 $title = "Contacto";
 $description = "En NCM ofrecemos elementos visuales de publicidad en el Punto de Venta (PLV). Contamos con amplia experiencia en diseño, creación de prototipos...";
 $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f4711c82df1437_Mobiliario%20-%208.jpg";
+
+if($_POST){
+
+    $required_fields = [
+        'NAME',
+        'COMPANY',
+        'EMAIL',
+        'PHONE',
+        'MESSAGE'
+    ];
+
+    $showError = false;
+
+    foreach($required_fields as $required_field){
+        if(!array_key_exists($required_field, $_POST) || $_POST[$required_field] == null){
+            $showError = true;
+            $messageError = "Todos los campos son requeridos";
+        }
+    }
+
+    if(!$showError){
+        send_email_duraluxe_contact_form(
+            $_POST['NAME'],
+            $_POST['EMAIL'],
+            $_POST['COMPANY'],
+            $_POST['PHONE'],
+            nl2br($_POST['MESSAGE']),
+            array_key_exists('WANTS_SAMPLES', $_POST) ? $_POST['WANTS_SAMPLES'] : false,
+            $duraluxe_contact_config
+        );
+    }
+}
+
 ?>
-
-<?php include "../page_template/header.php"; ?>
-
     <div class="section-3 wf-section duraluxe-contact-header">
         <div class="content-block">
             <h1>Contacto</span></h1>
@@ -19,27 +51,32 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
         <img src="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
         <div class="content-block-copy">
             <h2 class="red-text">Ven a visitarnos</h2>
-            <div class="form-block w-form">
-                <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="get" data-wf-page-id="5f91c29517d63b03ebabb738" data-wf-element-id="e09a6253-0dfe-2073-bdd6-1583eb5e40ab">
+            <div class="form-block">
+                <form id="duraluxe-contact-form" action="" name="duraluxe-contact-Form" data-name="Duraluxe Contact Form" method="post">
                     <div class="contact-form-grid">
-                        <input type="text" class="field w-input" maxlength="256" name="NAME" data-name="NAME" placeholder="Nombre" id="NAME" required="">
-                        <input type="text" class="field w-input" maxlength="256" name="COMPANY" data-name="COMPANY" placeholder="Empresa" id="COMPANY">
-                        <input type="email" class="field w-node-e09a6253-0dfe-2073-bdd6-1583eb5e40b8-ebabb738 w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email" id="EMAIL" required="">
-                        <input type="tel" class="field w-node-_7b63e148-c85d-ea0a-d8c3-bc39b1c47e0d-ebabb738 w-input" maxlength="256" name="PHONE" data-name="PHONE" placeholder="Teléfono" id="PHONE" required="">
-                        <textarea data-name="MESSAGE" maxlength="5000" id="MESSAGE" name="MESSAGE" placeholder="Escribe tu mensaje" class="field area w-node-e09a6253-0dfe-2073-bdd6-1583eb5e40c0-ebabb738 w-input"></textarea>
+                        <input type="text" class="field w-input" maxlength="256" name="NAME" data-name="NAME" placeholder="Nombre" id="NAME" value="<?php if (array_key_exists('NAME', $_POST) && $_POST['NAME']) echo $_POST['NAME']; ?>" required>
+                        <input type="text" class="field w-input" maxlength="256" name="COMPANY" data-name="COMPANY" placeholder="Empresa" id="COMPANY" value="<?php if (array_key_exists('COMPANY', $_POST) && $_POST['COMPANY']) echo $_POST['COMPANY']; ?>" required>
+                        <input type="email" class="field w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email" id="EMAIL" value="<?php if (array_key_exists('EMAIL', $_POST) && $_POST['EMAIL']) echo $_POST['EMAIL']; ?>" required="">
+                        <input type="tel" class="field w-input" maxlength="256" name="PHONE" data-name="PHONE" placeholder="Teléfono" id="PHONE" value="<?php if (array_key_exists('PHONE', $_POST) && $_POST['PHONE']) echo $_POST['PHONE']; ?>" required="">
+                        <textarea data-name="MESSAGE" maxlength="5000" id="MESSAGE" name="MESSAGE" placeholder="Escribe tu mensaje" class="field area w-input"><?php if (array_key_exists('MESSAGE', $_POST) && $_POST['MESSAGE']) echo $_POST['MESSAGE']; ?></textarea>
+                        <br />
                         <div class="wants-sample">
-                            <input type="checkbox" class="" name="WANTS_SAMPLES" data-name="WANTS_SAMPLES" id="WANTS_SAMPLES">
+                            <input type="checkbox" class="" name="WANTS_SAMPLES" data-name="WANTS_SAMPLES" id="WANTS_SAMPLES" <?php if(array_key_exists('WANTS_SAMPLES', $_POST) && $_POST['WANTS_SAMPLES']) echo 'checked'; ?> >
                             <label for="WANTS_SAMPLES">Solicitar muestras</label>
                         </div>
-                        <input type="submit" value="ENVIAR" data-wait="Enviando..." id="w-node-e09a6253-0dfe-2073-bdd6-1583eb5e40c1-ebabb738" class="button-2 w-button">
+                        <br />
+                        <input type="submit" value="ENVIAR" data-wait="Enviando..."  class="button-2 w-button">
                     </div>
                 </form>
-                <div class="w-form-done">
-                    <div>¡Gracias! ¡Su mensaje ha sido recibido!</div>
-                </div>
-                <div class="w-form-fail">
-                    <div>Algo salió mal al enviar el formulario. Vuelve a intentar más tarde.</div>
-                </div>
+                <?php if($_POST && !$showError){ ?>
+                    <div class="w-form-done">
+                        <div>¡Gracias! ¡Su mensaje ha sido recibido!</div>
+                    </div>
+                <?php } else if ($_POST && $showError) { ?>
+                    <div class="w-form-fail">
+                        <div><?php echo $messageError; ?></div>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </div>
