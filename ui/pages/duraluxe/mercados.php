@@ -94,7 +94,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                 <section id="image-carousel-bendableproducts" class="splide">
                     <div class="splide__track">
                         <ul class="splide__list">
-                            <?php for($i=1; $i<=30; $i++){ ?>
+                            <?php for($i=1; $i<=25; $i++){ ?>
                                 <li class="splide__slide">
                                     <img src="<?php echo $project_url;?>ui/assets/images/duraluxe/mercados/productos_flexibles/<?php echo $i; ?>.webp">
                                 </li>

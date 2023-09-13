@@ -19,6 +19,112 @@ div.header-section div.content-block{
 }
 
 /*************/
+/* DURALUXE - MAIN SCREEN */
+/*************/
+
+div.duralex-home-gallery .splide {
+    margin-bottom: 0;
+}
+div.duralex-message.wf-section {
+    padding: 20px 70px 20px 70px;
+    color: #fcfcfc;
+    background-color: #e0004de3;
+}
+div.duralex-features {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+div.duralex-features div.features{
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    justify-self: start;
+    align-self: start;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.duralex-features ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+div.duralex-features ul li {
+    margin-right: 20px;
+}
+
+div.duralex-message.wf-section p {
+    color: #fcfcfc;
+    max-width: initial;
+}
+
+div.homepage-markets div.col-md-6{
+    padding: calc(var(--bs-gutter-x) * .5);
+}
+
+div.homepage-markets div.image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+div.homepage-markets div.image div.bg-black {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+div.homepage-markets div.image.fotografia {
+    background-image: url('../images/duraluxe/homepage/fotografia.webp');
+}
+
+div.homepage-markets div.image.senaletica{
+    background-image: url('../images/duraluxe/homepage/senaletica.webp');
+}
+div.homepage-markets div.image.interiorismo{
+    background-image: url('../images/duraluxe/homepage/interiorismo.webp');
+}
+div.homepage-markets div.image.arquitectura_fachadas{
+    background-image: url('../images/duraluxe/homepage/arquitectura_fachadas.webp');
+}
+div.homepage-markets div.image.productos_flexibles{
+    background-image: url('../images/duraluxe/homepage/productos_flexibles.webp');
+}
+div.homepage-markets div.image.protectores_contra_salpicaduras{
+    background-image: url('../images/duraluxe/homepage/protectores_contra_salpicaduras.webp');
+}
+div.homepage-markets div.image.paredes_de_ducha{
+    background-image: url('../images/duraluxe/homepage/paredes_de_ducha.webp');
+}
+
+div.homepage-markets div.image.techos {
+    background-image: url('../images/duraluxe/homepage/techos.webp');
+}
+
+div.homepage-markets div.image div.text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+
+/*************/
 /* DURALUXE - FAQS */
 /*************/
 
