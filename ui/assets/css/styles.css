@@ -190,6 +190,12 @@ div.duraluxe-catalogue-section div.catalogue-link .button-2:hover {
     }
 }
 
+div.duraluxe-contact .w-form-fail,
+div.duraluxe-contact .w-form-done {
+    display: block;
+    margin-top: 20px;
+}
+
 div.duraluxe-contact form#wf-form-Contact-Form div.wants-sample label {
     min-height: 60px;
     background-color: rgba(0, 0, 0, 0);
