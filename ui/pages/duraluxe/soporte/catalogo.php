@@ -16,16 +16,10 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 </div>
 
 <div class="duraluxe-catalogue-section">
-    <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=1mqr0s8hp8" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+    <iframe src="https://online.fliphtml5.com/yfsek/dljp/#p=1" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
 
     <div class="catalogue-link">
-        <a href="https://www.flipsnack.com/duraluxe/duraluxe-catalog-2020-1mqr0s8hp8/full-view.html" class="button-2 w-button" target="_blank">Haz clic aquí para ver en pantalla completa el catálogo</a>
-    </div>
-
-    <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=xtjw99przp" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
-
-    <div class="catalogue-link">
-        <a href="https://www.flipsnack.com/duraluxe/duraluxe-catalog-bendables-2020/full-view.html" class="button-2 w-button" target="_blank">Haz clic aquí para ver en pantalla completa el catálogo</a>
+        <a href="https://online.fliphtml5.com/yfsek/dljp/#p=1" class="button-2 w-button" target="_blank">Haz clic aquí para ver en pantalla completa el catálogo</a>
     </div>
 </div>
 
