@@ -99,7 +99,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
                             <div class="title">WALLSKY</div>
                         </a>
                     </div>
-                    <div class="finish col">
+                    <div class="finish col" style="opacity: 0">
                         <a href="<?php echo $project_url; ?>duraluxe/cepillado">
                             <div class="black-cover"></div>
                             <div class="cover cepillado"></div>

@@ -3,7 +3,7 @@ Options -Indexes
 Options +FollowSymlinks
 RewriteEngine on
 RewriteBase /ncm/
-ErrorDocument 404 ui/pages/404.php
+ErrorDocument 404 /ncm/not-found
 DirectoryIndex ui/pages/index.php
 
 ### if it's not a file or directory
@@ -12,7 +12,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 
 # Main website
-RewriteRule ^test?$ ui/pages/test.php [L,NC,QSA]
+RewriteRule ^not-found$ ui/pages/404.php [L,NC,QSA]
 
 RewriteRule ^metodo?$ ui/pages/metodo.php?page=metodo [L,NC,QSA]
 RewriteRule ^nosotros?$ ui/pages/nosotros.php?page=nosotros [L,NC,QSA]

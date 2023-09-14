@@ -11,7 +11,8 @@ function send_email_duraluxe_contact_form(
     $phone,
     $message,
     $wants_samples,
-    $config
+    $config,
+    $project_url
 ){
 
 
@@ -41,15 +42,16 @@ function send_email_duraluxe_contact_form(
         $cos = str_replace('%PHONE%', $phone, $cos);
         $cos = str_replace('%MESSAGE%', $message, $cos);
         $cos = str_replace('%WANTS_SAMPLES%', $wants_samples ? 'Sí' : 'No', $cos);
+        $cos = str_replace('%PROJECT_URL%', $project_url, $cos);
 
         $mail->MsgHTML( $cos );
         $mail->CharSet="UTF-8";
         $sendEmail = $mail->Send();
 
         if($sendEmail){
-            //echo '<center><h3>Mail sent successfully</h3></center>';
+            // echo '<center><h3>Mail sent successfully</h3></center>';
         } else{
-            //echo '<center><h3>Mail error: </h3></center>'.$mail->ErrorInfo.'';
+            // echo '<center><h3>Mail error: </h3></center>'.$mail->ErrorInfo.'';
         }
     } catch (phpmailerException $e) {
         echo $e->errorMessage(); // Pretty error messages from PHPMailer

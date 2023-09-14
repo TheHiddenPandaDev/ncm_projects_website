@@ -35,7 +35,8 @@ if($_POST){
             $_POST['PHONE'],
             nl2br($_POST['MESSAGE']),
             array_key_exists('WANTS_SAMPLES', $_POST) ? $_POST['WANTS_SAMPLES'] : false,
-            $duraluxe_contact_config
+            $duraluxe_contact_config,
+            $project_url,
         );
     }
 }
