@@ -1,5 +1,13 @@
 <?php
+
     include "".$_SERVER['DOCUMENT_ROOT']."/ncm/config/config.php";
+
+    if ((empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") && $development == false) {
+        $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        header('HTTP/1.1 301 Moved Permanently');
+        header('Location: ' . $location);
+        exit;
+    }
 
 ?>
 <!DOCTYPE html><!--  Last Published: Mon Jun 19 2023 17:41:03 GMT+0000 (Coordinated Universal Time)  -->

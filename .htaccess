@@ -44,3 +44,5 @@ RewriteRule ^duraluxe/glow?$ ui/pages/duraluxe/acabados/glow.php?page=duraluxe&s
 RewriteRule ^duraluxe/canvas?$ ui/pages/duraluxe/acabados/canvas.php?page=duraluxe&subpage=acabados [L,NC,QSA]
 RewriteRule ^duraluxe/wallsky?$ ui/pages/duraluxe/acabados/wallsky.php?page=duraluxe&subpage=acabados [L,NC,QSA]
 RewriteRule ^duraluxe/cepillado?$ ui/pages/duraluxe/acabados/cepillado.php?page=duraluxe&subpage=acabados [L,NC,QSA]
+
+Redirect 301 /ncm/mercados /ncm/duraluxe/mercados
