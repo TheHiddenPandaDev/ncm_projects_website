@@ -21,11 +21,13 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
     <div class="catalogue-link">
         <a href="https://online.fliphtml5.com/yfsek/dljp/#p=1" class="button-2 w-button" target="_blank">Haz clic aquí para ver en pantalla completa el catálogo</a>
     </div>
+
+    <iframe src="https://online.fliphtml5.com/yfsek/zajd/#p=1" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+
+    <div class="catalogue-link">
+        <a href="https://online.fliphtml5.com/yfsek/zajd/#p=1" class="button-2 w-button" target="_blank">Haz clic aquí para ver en pantalla completa el catálogo</a>
+    </div>
 </div>
-
-
-
-
 
 <div class="logo-section">
     <div class="container">
