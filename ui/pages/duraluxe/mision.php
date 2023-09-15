@@ -17,12 +17,11 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 </div>
 
 <div class="duralex-mission wf-section">
-
-    <p>Duraluxe nació en 2015 como un desarrollo natural de Decoral System USA, una empresa con más de 40 años de experiencia en investigación, desarrollo y fabricación de sistemas decorativos de pintura en polvo.</p>
-    <p>Decoral es considerado el líder de la industria para aplicaciones decorativas arquitectónicas, industriales y OEM y es una empresa totalmente integrada que fabrica todos los componentes de sus sistemas. La tecnología se desarrolló originalmente en Italia a principios de los 90 y se introdujo en el mercado norteamericano en 2005.</p>
-    <p>Actualmente, Duraluxe, "los paneles de sublimación de aluminio definitivos", está disponible en ocho hermosos acabados que son BRILLANTE, MATE, SATINADO, LONA (TEXTURA), TOQUE DE HIELO, WALLSKY, LAGO SALADO y BRILLA EN LA OSCURIDAD.</p>
+    <p>Duraluxe nació en 2015 como el desarrollo natural de Decoral System USA, una empresa con más de 40 años de experiencia en investigación, desarrollo y fabricación de sistemas decorativos de pintura en polvo.</p>
+    <p>Decoral está considerado el líder de la industria para aplicaciones decorativas arquitectónicas, industriales y OEM y es una empresa totalmente integrada que fabrica todos los componentes de sus sistemas. La tecnología se desarrolló originalmente en Italia a principios de los 90 y se introdujo en el mercado norteamericano en 2005.</p>
+    <p>Actualmente, Duraluxe, "los paneles de sublimación de aluminio definitivos", está disponible en ocho acabados que son GLOSSY, MATTE, SATIN, CANVAS (TEXTURE), ICE TOUCH, WALLSKY, SALT LAKE, y GLOW IN THE DARK.</p>
     <p>Estamos orgullosos de ofrecer acabados de sublimación para exteriores, resistentes a los arañazos, a los rayos UV y a los productos químicos, antimicrobianos y antigraffiti.</p>
-    <p>Nuestros paneles de aluminio de primera calidad se pueden doblar, cortar, taladrar, perforar, aplicar con chorro de agua o enrutar, lo que nos convierte en el panel de sublimación definitivo. Nuestra relación con nuestra red mundial de distribuidores es la clave de nuestro éxito, a quienes nos comprometemos a brindar el mejor soporte de ventas, técnico y logístico.</p>
+    <p>Nuestros paneles de aluminio de primera calidad se pueden doblar, cortar, taladrar, perforar, aplicar con chorro de agua o fresar, lo que nos convierte en el panel de sublimación definitivo.</p>
 </div>
 
 

@@ -16,7 +16,7 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
 </div>
 
 <div class="duraluxe-guidelines-section">
-    <iframe src="<?php echo $project_url; ?>ui/assets/libraries/pdfjs/web/viewer.html?file=<?php echo $project_url; ?>ui/assets/documents/duraluxe/Duraluxe_Sublimation_Guide_2020_ver3.pdf"></iframe>
+    <iframe src="<?php echo $project_url; ?>ui/assets/libraries/pdfjs/web/viewer.html?file=<?php echo $project_url; ?>ui/assets/documents/duraluxe/Duraluxe_Sublimation_Guidelines_-_REVISION_3_0_10_02_19.pdf"></iframe>
 </div>
 
 

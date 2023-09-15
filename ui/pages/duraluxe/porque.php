@@ -42,10 +42,9 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
     <p>La seguridad es una prioridad para muchos de nuestros clientes. Es por eso que nos enorgullece ofrecer paneles no inflamables.</p>
     <p>Nuestros paneles han sido rigurosamente probados para garantizar que cumplan con los más altos estándares de no inflamabilidad. Están clasificados como no combustibles y no contribuyen a la propagación del fuego, lo que los convierte en una opción ideal para su uso en espacios públicos, edificios comerciales y otras áreas donde la seguridad es una preocupación.</p>
 
-    <h2><a href="https://www.duraluxepanels.com/copy-of-sublimation-guide" target="_blank">LIBRE DE COV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
-    <p>Los paneles Duraluxe® al no ser compuesto
+    <h2 class="mt-2rem"><a href="https://www.duraluxepanels.com/copy-of-sublimation-guide" target="_blank">LIBRE DE COV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
 
-    <h2>100% RECICLABLE</h2>
+    <h2 class="coloured mt-2rem">100% RECICLABLE</h2>
     <p>Los paneles Duraluxe® al no ser compuestos de diferentes materiales proporcionan una excelente capacidad de reciclaje.</p>
     <p>Como si una lata de refresco fuera, podemos garantizar un ciclo de vida completo pudiendo reciclar el aluminio de manera infinita sin perder sus propiedades.</p>
 </div>

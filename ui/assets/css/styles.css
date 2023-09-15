@@ -325,8 +325,13 @@ div.duralex-markets {
     padding: 70px 53px 0;
 }
 
-div.duralex-why h2 a {
+div.duralex-why .mt-2rem {
+    margin-top: 2rem;
+}
+div.duralex-why h2 a,
+div.duralex-why h2.coloured {
     color: #e0004d;
+    text-decoration: underline;
 }
 
 div.duralex-why h2 a:hover {
@@ -586,4 +591,62 @@ div.duraluxe-menu nav div.sub-menu ul li a {
         text-align: left;
         margin-left: 20px;
     }
+}
+
+/* ALTERNATIVE HOME */
+
+div.alternative-home {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+div.alternative-home div.image-background-homepage {
+    background-image: url(https://thehiddenpanda.com/development/ncm/ui/assets/images/Fabricacion---3-p-1080.jpeg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+}
+
+div.alternative-home div.bg-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+div.alternative-home div.container {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 82px;
+}
+
+div.alternative-home div.container p {
+    margin-top: 20px;
+    max-width: initial;
+    color: #FFFFFF;
+}
+
+div.alternative-home div.container .button-2:hover {
+    background-color: #e0004d;
+    border: 3px solid #212529;
+    color: #FFFFFF;
+}
+
+div.alternative-home div.container .button-2.white {
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    color: #212529;
+}
+
+div.alternative-home div.container .button-2.white:hover {
+    border: 3px solid #212529;
 }
