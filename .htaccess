@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^not-found$ ui/pages/404.php [L,NC,QSA]
 
 # Example Home
-RewriteRule ^dos_butons?$ ui/pages/index_second_example.php [L,NC,QSA]
+RewriteRule ^dos_botons?$ ui/pages/index_second_example.php [L,NC,QSA]
 
 RewriteRule ^metodo?$ ui/pages/metodo.php?page=metodo [L,NC,QSA]
 RewriteRule ^nosotros?$ ui/pages/nosotros.php?page=nosotros [L,NC,QSA]

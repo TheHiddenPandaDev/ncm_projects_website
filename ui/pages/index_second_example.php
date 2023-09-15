@@ -17,7 +17,7 @@ $page = '';
         <p>Decoral System es el líder mundial en tecnología de sublimación para aplicaciones decorativas arquitectónicas, industriales y OEM; Somos una empresa totalmente integrada, que fabrica todos los componentes de nuestro sistema. Debido a esta amplia experiencia, expandirse al mundo de los espacios en blanco para sublimación casi parecía un desarrollo natural.</p>
 
             <div class="row">
-                <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button white" href="">Visitar Duraluxe</a></p></div>
+                <div class="col-md-6"><p><a href="<?php echo $project_url; ?>" class="button-2 w-button white" href="">Visitar NCM-Projects</a></p></div>
                 <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Visitar Duraluxe</a></p></div>
             </div>
 
