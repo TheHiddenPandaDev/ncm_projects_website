@@ -9,28 +9,18 @@ $page = '';
 
 <?php include "page_template/header.php"; ?>
 
-<div class="section wf-section">
-    <div class="red-background-absolute"></div>
+<div class="section wf-section alternative-home">
+    <div class="image-background-homepage"></div>
+    <div class="bg-black"></div>
     <div class="container w-container">
-        <div class="w-layout-grid hero-grid">
-            <div class="content-block">
-                <h1>¡Con Duraluxe <span class="red-text">puedes hacer mucho más!</span></h1>
-                <p>Decoral System es el líder mundial en tecnología de sublimación para aplicaciones decorativas arquitectónicas, industriales y OEM; Somos una empresa totalmente integrada, que fabrica todos los componentes de nuestro sistema. Debido a esta amplia experiencia, expandirse al mundo de los espacios en blanco para sublimación casi parecía un desarrollo natural.</p>
-                <p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Visitar Duraluxe</a></p>
-            </div>
-            <div data-delay="3000" data-animation="cross" class="hero-image w-slider" data-autoplay="true" data-easing="ease-in-out-quart" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1500" data-infinite="true">
-                <div class="mask w-slider-mask">
-                    <div class="hero-slide-ratio w-slide"><a href="<?php echo $project_url; ?>duraluxe"><img src="<?php echo $project_url; ?>ui/assets/images/duraluxe/mercados/productos_flexibles/25.webp" loading="lazy" alt="" class="hero-slider-image"></a></div>
-                </div>
-                <div class="hidden w-slider-arrow-left">
-                    <div class="w-icon-slider-left"></div>
-                </div>
-                <div class="hidden w-slider-arrow-right">
-                    <div class="w-icon-slider-right"></div>
-                </div>
-                <div class="hidden w-slider-nav"></div>
-            </div>
+        <h1>¡Con Duraluxe <span class="red-text">puedes hacer mucho más!</span></h1>
+        <p>Decoral System es el líder mundial en tecnología de sublimación para aplicaciones decorativas arquitectónicas, industriales y OEM; Somos una empresa totalmente integrada, que fabrica todos los componentes de nuestro sistema. Debido a esta amplia experiencia, expandirse al mundo de los espacios en blanco para sublimación casi parecía un desarrollo natural.</p>
+
+        <div class="row">
+            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>" class="button-2 w-button white" href="">Visitar NCM-Projects</a></p></div>
+            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Visitar Duraluxe</a></p></div>
         </div>
+
     </div>
 </div>
 <div class="logo-section">

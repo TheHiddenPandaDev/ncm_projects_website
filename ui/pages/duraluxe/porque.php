@@ -34,15 +34,13 @@ $image = "https://uploads-ssl.webflow.com/5f6b88914d3eea4ffa532bec/5f77343078f47
     <p>Nuestro exclusivo proceso de recubrimiento en polvo de dos capas proporciona una resistencia superior a los rayos UV. De hecho, confiamos tanto en la resistencia UV de nuestros paneles que ofrecemos una garantía de 5 años para uso en exteriores en todo el mundo, siendo los más resistentes a los rayos UV del mercado.</p>
     <p>Puede estar seguro de que sus impresiones mantendrán sus colores vibrantes y claridad, incluso bajo la luz solar directa. A diferencia de otros materiales que pueden desvanecerse o decolorarse con el tiempo, nuestros paneles están diseñados para soportar los duros efectos de los rayos UV y la exposición a la intemperie.</p>
 
-    <h2><a href="https://www.duraluxepanels.com/antimicrobial" target="_blank">ANTIMICROBIANO Y LIBRE DE COV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
+    <h2><a href="https://www.duraluxepanels.com/antimicrobial" target="_blank">ANTIMICROBIANO <i class="fa-solid fa-arrow-up-right-from-square"></i></a> Y <a href="https://www.duraluxepanels.com/copy-of-sublimation-guide" target="_blank">LIBRE DE COV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
     <p>Cuando se trata de entornos médicos como hospitales, centros de salud o centros escolares, la limpieza y la higiene son de suma importancia al igual que evitar la emisión de elementos organicos contaminates COV. Son la solución definitiva para crear superficies higiénicas de alta calidad que son perfectas para su uso en entornos médicos siendo fáciles de limpiar, desinfectar y sin emisiones tóxicas.</p>
     <p>Nuestro exclusivo proceso de recubrimiento en polvo incluye el uso de un agente antimicrobiano, que ayuda a inhibir el crecimiento de bacterias y otros microorganismos dañinos en la superficie de los paneles.</p>
 
     <h2><a href="https://www.duraluxepanels.com/heat-fire-tests" target="_blank">IGNÍFUGO <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
     <p>La seguridad es una prioridad para muchos de nuestros clientes. Es por eso que nos enorgullece ofrecer paneles no inflamables.</p>
     <p>Nuestros paneles han sido rigurosamente probados para garantizar que cumplan con los más altos estándares de no inflamabilidad. Están clasificados como no combustibles y no contribuyen a la propagación del fuego, lo que los convierte en una opción ideal para su uso en espacios públicos, edificios comerciales y otras áreas donde la seguridad es una preocupación.</p>
-
-    <h2 class="mt-2rem"><a href="https://www.duraluxepanels.com/copy-of-sublimation-guide" target="_blank">LIBRE DE COV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
 
     <h2 class="coloured mt-2rem">100% RECICLABLE</h2>
     <p>Los paneles Duraluxe® al no ser compuestos de diferentes materiales proporcionan una excelente capacidad de reciclaje.</p>
