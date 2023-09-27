@@ -52,7 +52,7 @@ if($_POST){
     <div class="section-5-copy wf-section duraluxe-contact">
         <img src="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 56vw, (max-width: 1279px) 53vw, 55vw" srcset="<?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/_CGF7982-comprimida.jpg 1200w" alt="" class="background-image">
         <div class="content-block-copy">
-            <h2 class="red-text">Ven a visitarnos</h2>
+            <h2 class="red-text">Contacta con nosotros</h2>
             <div class="form-block">
                 <form id="duraluxe-contact-form" action="" name="duraluxe-contact-Form" data-name="Duraluxe Contact Form" method="post">
                     <div class="contact-form-grid">
@@ -60,14 +60,12 @@ if($_POST){
                         <input type="text" class="field w-input" maxlength="256" name="COMPANY" data-name="COMPANY" placeholder="Empresa" id="COMPANY" value="<?php if (array_key_exists('COMPANY', $_POST) && $_POST['COMPANY']) echo $_POST['COMPANY']; ?>" required>
                         <input type="email" class="field w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email" id="EMAIL" value="<?php if (array_key_exists('EMAIL', $_POST) && $_POST['EMAIL']) echo $_POST['EMAIL']; ?>" required="">
                         <input type="tel" class="field w-input" maxlength="256" name="PHONE" data-name="PHONE" placeholder="Teléfono" id="PHONE" value="<?php if (array_key_exists('PHONE', $_POST) && $_POST['PHONE']) echo $_POST['PHONE']; ?>" required="">
-                        <textarea data-name="MESSAGE" maxlength="5000" id="MESSAGE" name="MESSAGE" placeholder="Escribe tu mensaje" class="field area w-input"><?php if (array_key_exists('MESSAGE', $_POST) && $_POST['MESSAGE']) echo $_POST['MESSAGE']; ?></textarea>
-                        <br />
+                        <textarea data-name="MESSAGE" maxlength="5000" id="MESSAGE" name="MESSAGE" placeholder="Escribe tu mensaje" class="field area w-node-e09a6253-0dfe-2073-bdd6-1583eb5e40c0-ebabb738 w-input"><?php if (array_key_exists('MESSAGE', $_POST) && $_POST['MESSAGE']) echo $_POST['MESSAGE']; ?></textarea>
                         <div class="wants-sample">
                             <input type="checkbox" class="" name="WANTS_SAMPLES" data-name="WANTS_SAMPLES" id="WANTS_SAMPLES" <?php if(array_key_exists('WANTS_SAMPLES', $_POST) && $_POST['WANTS_SAMPLES']) echo 'checked'; ?> >
                             <label for="WANTS_SAMPLES">Solicitar muestras</label>
                         </div>
-                        <br />
-                        <input type="submit" value="ENVIAR" data-wait="Enviando..."  class="button-2 w-button">
+                        <input id="w-node-e09a6253-0dfe-2073-bdd6-1583eb5e40c1-ebabb738" type="submit" value="ENVIAR" data-wait="Enviando..."  class="button-2 w-button">
                     </div>
                 </form>
                 <?php if($_POST && !$showError){ ?>
