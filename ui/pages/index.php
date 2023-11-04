@@ -13,7 +13,7 @@ $page = '';
     <div class="image-background-homepage"></div>
     <div class="bg-black"></div>
     <div class="container w-container">
-        <h1>Una primera impresión supone la<br/>diferencia entre vender y no vender</h1>
+        <h1>Una primera impresión supone la <br class="hide_br" />diferencia entre vender y no vender</h1>
         <div class="row">
             <div class="col-md-6"><p><a href="<?php echo $project_url; ?>#un-iman-para-el-consumidor" class="button-2 w-button white" href="">PLV/Metracilato</a></p></div>
             <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Paneles de aluminio para sublimación</a></p></div>

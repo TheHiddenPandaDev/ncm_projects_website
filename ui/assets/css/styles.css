@@ -650,3 +650,9 @@ div.alternative-home div.container .button-2.white {
 div.alternative-home div.container .button-2.white:hover {
     border: 3px solid #212529;
 }
+
+@media screen and (max-width: 420px) {
+    .hide_br {
+        display: none;
+    }
+}
