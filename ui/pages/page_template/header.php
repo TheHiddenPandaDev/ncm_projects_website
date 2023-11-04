@@ -32,6 +32,17 @@
     <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/brands.css" rel="stylesheet">
     <link href="<?php echo $project_url; ?>ui/assets/libraries/fontawesome/css/solid.css" rel="stylesheet">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5K7HXCV2GT"></script>
+    <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-5K/HXCV2GT');
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
