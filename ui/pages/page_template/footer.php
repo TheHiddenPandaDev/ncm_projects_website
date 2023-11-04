@@ -15,7 +15,7 @@
             </div>
             <div class="sitemap-group">
                 <div class="sitemap-title">Contacta</div>
-                <a href="https://goo.gl/maps/QVRkrNMRKVM8h9tk7" target="_blank" class="sitemap-link">Avda. Can Roses 10, nave 11B</a>
+                <a href="https://goo.gl/maps/QVRkrNMRKVM8h9tk7" target="_blank" class="sitemap-link">Avda. Can Roses 10, Nave 11B</a>
                 <a href="https://goo.gl/maps/QVRkrNMRKVM8h9tk7" target="_blank" class="sitemap-link">08191 Rubí, Barcelona</a>
                 <a href="mailto:clients@ncm-projects.com?subject=New%20Business" class="sitemap-link">clients@ncm-projects.com</a>
                 <a href="tel:+34935885502" class="sitemap-link final-element">+34 935 885 502</a>
