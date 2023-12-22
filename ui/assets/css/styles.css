@@ -2,6 +2,155 @@ body {
     position: relative;
 }
 
+/*************/
+/* NEWSLETTER */
+/*************/
+
+body.newsletter {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.newsletter-popup {
+    position: absolute;
+    background: rgb(0 0 0 / 75%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    display: none;
+}
+
+div.modalContent__image {
+    float: left;
+    width: 50%;
+}
+
+div.modalContent__content {
+    padding: 20px;
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+
+@media screen and (max-width: 860px) {
+    div.modalContent__content {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    div.modalContent__content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    div.modalContent__content {
+        width: 100%;
+    }
+}
+
+div.modalContent {
+    background-image: url('../images/1.2.2-580x550-p-500.jpeg');
+    max-width: 90%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 860px) {
+    width: 80%;
+}
+
+div.content__emailStep div.field-wrapper {
+    margin-top: 20px;
+}
+
+div.descriptionContainer div.subtitle {
+    margin-top: 20px;
+}
+
+div.descriptionContainer div.subtitle h4 {
+    font-weight: inherit;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+div.modalContent__content label {
+    color: #404040;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+}
+
+div.modalContent__content input[type="text"],
+div.modalContent__content input[type="email"] {
+    background-color: #ffffff;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+    display: inline-block;
+    min-height: 36px;
+    min-width: 50px;
+    padding: 0 0.4em;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.modalContent__content .content__button {
+    margin-bottom: 20px;
+}
+
+div.modalContent__content div.disclaimer {
+    font-size: 12px;
+    text-align: center;
+}
+
+span.close-newsletter-popup {
+    cursor: pointer;
+}
+
+div.modalContent__content .content__button input {
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 36px;
+    letter-spacing: 0.01em;
+    line-height: 36px;
+    margin-right: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    background-color: rgb(17, 17, 17);
+    font-size: 1em;
+    color: rgb(238, 238, 238);
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.newsletter-popup div.clear {
+    clear: both;
+}
+
+/**** END NEWSLETTER ****/
+
 div.header-section div.bg-black {
     position: absolute;
     width: 100%;

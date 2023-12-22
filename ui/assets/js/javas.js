@@ -15,4 +15,17 @@ $(document).ready(function(){
     $("div.duraluxe-menu-button").click(function() {
         $("div.duraluxe-menu").toggle("slow");
     });
+
+    /*** NEWSLETTER ANIMATION ***/
+    $("div.newsletter-popup").fadeIn('slow');
+    $("body").addClass('newsletter');
+
+    $("span.close-newsletter-popup").click(function() {
+        $("div.newsletter-popup").fadeOut('slow');
+        $("body").removeClass('newsletter');
+    });
+
+
+
+
 });

@@ -60,6 +60,51 @@
     <link href="<?php echo $project_url; ?>ui/assets/images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
+    <div class="newsletter-popup">
+
+        <div class="modalContent" id="SignupForm_0" widgetid="SignupForm_0">
+            <div class="flash-block" data-dojo-attach-point="formResponseMessages"></div>
+
+            <div class="modalContent__image" data-dojo-attach-point="formImageContainer"></div>
+
+            <div class="modalContent__content strictContent m" data-dojo-attach-point="formContentContainer">
+                <div class="content__titleDescription">
+                    <div class="descriptionContainer" data-dojo-attach-point="descriptionContainer">
+                        <h3 style="text-align:center;"><strong>Newsletter</strong></h3>
+                        <div class="subtitle">
+                            <h4>Suscríbete a nuestra newsletter</h4>
+                            <h4>para recibir las últimas noticias.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Fields -->
+                <form action="https://ncm-projects.us21.list-manage.com/subscribe/post" accept-charset="UTF-8" method="post" enctype="multipart/form-data" data-dojo-attach-point="formNode" novalidate="">
+                    <input type="hidden" name="u" value="465beadbbb4547bea14a66cd2">
+                    <input type="hidden" name="id" value="12362973bc">
+                    <input type="hidden" name="orig-lang" value="1">
+                    <div class="content__emailStep" data-dojo-attach-point="emailContentContainer">
+                        <div class="content__formFields" data-dojo-attach-point="formFieldsContainer"><div class="field-wrapper email-field" id="uniqName_68_0" widgetid="uniqName_68_0">
+                                <label for="mc-FNAME">Nombre</label>
+                                <input type="text" name="MERGE1" value="" id="mc-FNAME" required>
+                                <div class="invalid-error"></div></div><div style="position:absolute;left:-5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1" value=""></div></div>
+                                <label for="mc-EMAIL">Email</label>
+                                <input type="email" name="MERGE0" value="" id="mc-EMAIL" data-dojo-attach-point="emailInput" required>
+                                <div class="invalid-error"></div></div><div class="field-wrapper" id="uniqName_68_1" widgetid="uniqName_68_1">
+
+                        <div class="content__button">
+                            <input class="button" type="submit" value="Enviar" data-dojo-attach-point="submitButton">
+                        </div>
+                        <div class="disclaimer">
+                            <span class="close-newsletter-popup">No, gracias.</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
 <div data-animation="over-right" class="navbar w-nav" data-easing2="ease-in-out-quart" data-easing="ease-in-out-quart" data-collapse="medium" role="banner" data-no-scroll="1" data-duration="500" data-doc-height="1">
     <div class="w-embed">
         <style>
