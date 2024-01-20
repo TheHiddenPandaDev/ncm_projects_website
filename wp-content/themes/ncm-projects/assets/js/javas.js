@@ -17,6 +17,7 @@ $(document).ready(function(){
     });
 
     /*** NEWSLETTER ANIMATION ***/
+    /*
     $("div.newsletter-popup").fadeIn('slow');
     $("body").addClass('newsletter');
 
@@ -24,6 +25,8 @@ $(document).ready(function(){
         $("div.newsletter-popup").fadeOut('slow');
         $("body").removeClass('newsletter');
     });
+
+     */
 
 
 

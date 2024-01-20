@@ -103,11 +103,11 @@
     </div>
     <div class="container w-container">
         <div class="navbar-warp">
-            <a href="" aria-current="page" class="brand w-nav-brand w--current"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.svg" loading="lazy" width="170" alt="" class="image"></a>
+            <a href="<?php echo get_home_url(); ?>" aria-current="page" class="brand w-nav-brand w--current"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.svg" loading="lazy" width="170" alt="" class="image"></a>
             <nav role="navigation" class="nav-menu w-nav-menu">
-                <a href="soluciones" class="nav-link w-nav-link">Soluciones</a>
-                <a href="metodo" class="nav-link w-nav-link">Método</a>
-                <a href="nosotros" class="nav-link w-nav-link">Nosotros</a>
+                <a href="<?php echo get_permalink(SOLUCIONES_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == SOLUCIONES_PAGE_ID) echo 'w--current'; ?>">Soluciones</a>
+                <a href="<?php echo get_permalink(METODO_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == METODO_PAGE_ID) echo 'w--current'; ?>">Método</a>
+                <a href="<?php echo get_permalink(NOSOTROS_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == NOSOTROS_PAGE_ID) echo 'w--current'; ?>">Nosotros</a>
                 <a href="duraluxe" class="nav-link w-nav-link">Duraluxe</a>
             </nav>
         </div>
@@ -116,31 +116,31 @@
         <div class="w-icon-nav-menu"></div>
     </div>
 </div>
-<?php if(false){ ?>
+<?php if(in_array(get_the_ID(), apply_filters( 'pages_in_duraluxe_section', '' ))){ ?>
     <div class="duraluxe-menu-button w-nav-button-duraluxe" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
         <div class="w-icon-nav-menu"></div>
     </div>
     <div class="duraluxe-menu">
         <div class="container w-container">
             <nav role="secondary-navigation" class="">
-                <a href="duraluxe/mision" class="nav-link w-nav-link">Misión</a>
-                <a href="duraluxe/acabados" class="nav-link w-nav-link">Acabados</a>
-                <a href="duraluxe/historia" class="nav-link w-nav-link">Historia</a>
-                <a href="duraluxe/mercados" class="nav-link w-nav-link">Mercados</a>
-                <a href="duraluxe/porque" class="nav-link w-nav-link ">Porque</a>
-                <div class="dropdown nav-link w-nav-lin">
+                <a href="<?php echo get_permalink(DURALUXE_MISION_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == DURALUXE_MISION_PAGE_ID) echo 'w--current'; ?>">Misión</a>
+                <a href="<?php echo get_permalink(DURALUXE_ACABADOS_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(in_array(get_the_ID(), apply_filters( 'pages_in_acabados_section', '' ))) echo 'w--current'; ?>">Acabados</a>
+                <a href="<?php echo get_permalink(DURALUXE_HISTORIA_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == DURALUXE_HISTORIA_PAGE_ID) echo 'w--current'; ?>">Historia</a>
+                <a href="<?php echo get_permalink(DURALUXE_MERCADOS_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == DURALUXE_MERCADOS_PAGE_ID) echo 'w--current'; ?>">Mercados</a>
+                <a href="<?php echo get_permalink(DURALUXE_PORQUE_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == DURALUXE_PORQUE_PAGE_ID) echo 'w--current'; ?>">Porque</a>
+                <div class="dropdown nav-link w-nav-lin <?php if(in_array(get_the_ID(), apply_filters( 'pages_in_soporte_section', '' ))) echo 'w--current'; ?>">
                     <span class="nav-link">
                         Soporte
                         <i class="fa-solid fa-caret-down"></i>
                     </span>
                     <div class="sub-menu">
                         <ul>
-                            <li><a href="duraluxe/soporte" class="nav-link">Manual de uso</a></li>
-                            <li><a href="duraluxe/soporte/catalogo" class="nav-link">Catálogo</a></li>
+                            <li><a href="<?php echo get_permalink(DURALUXE_SOPORTE_PAGE_ID); ?>" class="nav-link">Manual de uso</a></li>
+                            <li><a href="<?php echo get_permalink(DURALUXE_SOPORTE_CATALOGO_PAGE_ID); ?>" class="nav-link">Catálogo</a></li>
                         </ul>
                     </div>
                 </div>
-                <a href="duraluxe/contacto" class="nav-link w-nav-link">Contacto</a>
+                <a href="<?php echo get_permalink(DURALUXE_CONTACTO_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == DURALUXE_CONTACTO_PAGE_ID) echo 'w--current'; ?>">Contacto</a>
             </nav>
         </div>
     </div>

@@ -1,26 +1,80 @@
 <?php
-// This function enqueues the Normalize.css for use. The first parameter is a name for the stylesheet, the second is the URL. Here we
-// use an online version of the css file.
-function add_normalize_CSS() {
-    wp_enqueue_style( 'normalize-styles', "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
-}
-add_action('wp_enqueue_scripts', 'add_normalize_CSS');
 
-function add_Main_Nav() {
-    register_nav_menu('header-menu',__( 'Header Menu' ));
-}
-// Hook to the init action hook, run our navigation menu function
-add_action( 'init', 'add_Main_Nav' );
+// Normal Pages ID
+const METODO_PAGE_ID = 9;
+const HOME_PAGE_ID = 11;
+const NOSOTROS_PAGE_ID = 13;
+const SOLUCIONES_PAGE_ID = 15;
 
-function add_widget_support() {
-    register_sidebar( array(
-        'name'          => 'Sidebar',
-        'id'            => 'sidebar',
-        'before_widget' => '<div>',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h2>',
-        'after_title'   => '</h2>',
-    ) );
+// Duraluxe Pages ID
+const DURALUXE_HOME_PAGE_ID = 26;
+const DURALUXE_ACABADOS_PAGE_ID = 28;
+const DURALUXE_ACABADOS_BRILLANTE_PAGE_ID = 30;
+const DURALUXE_ACABADOS_CANVAS_PAGE_ID = 33;
+const DURALUXE_ACABADOS_CEPILLADO_PAGE_ID = 35;
+const DURALUXE_ACABADOS_GLOW_PAGE_ID = 37;
+const DURALUXE_ACABADOS_ICETOUCH_PAGE_ID = 39;
+const DURALUXE_ACABADOS_MATE_PAGE_ID = 41;
+const DURALUXE_ACABADOS_SALTLAKE_PAGE_ID = 43;
+const DURALUXE_ACABADOS_SATINADO_PAGE_ID = 45;
+const DURALUXE_ACABADOS_WALLSKY_PAGE_ID = 47;
+const DURALUXE_CONTACTO_PAGE_ID = 49;
+const DURALUXE_HISTORIA_PAGE_ID = 51;
+const DURALUXE_MERCADOS_PAGE_ID = 53;
+const DURALUXE_MISION_PAGE_ID = 55;
+const DURALUXE_PORQUE_PAGE_ID = 57;
+const DURALUXE_SOPORTE_PAGE_ID = 60;
+const DURALUXE_SOPORTE_CATALOGO_PAGE_ID = 62;
+
+
+add_filter( 'pages_in_duraluxe_section', 'pages_in_duraluxe_section' );
+add_filter( 'pages_in_acabados_section', 'pages_in_acabados_section' );
+add_filter( 'pages_in_soporte_section', 'pages_in_soporte_section' );
+
+function pages_in_duraluxe_section( $arg = '' ): array
+{
+    return [
+        DURALUXE_HOME_PAGE_ID,
+        DURALUXE_ACABADOS_PAGE_ID,
+        DURALUXE_ACABADOS_BRILLANTE_PAGE_ID,
+        DURALUXE_ACABADOS_CANVAS_PAGE_ID,
+        DURALUXE_ACABADOS_CEPILLADO_PAGE_ID,
+        DURALUXE_ACABADOS_GLOW_PAGE_ID,
+        DURALUXE_ACABADOS_ICETOUCH_PAGE_ID,
+        DURALUXE_ACABADOS_MATE_PAGE_ID,
+        DURALUXE_ACABADOS_SALTLAKE_PAGE_ID,
+        DURALUXE_ACABADOS_SATINADO_PAGE_ID,
+        DURALUXE_ACABADOS_WALLSKY_PAGE_ID,
+        DURALUXE_CONTACTO_PAGE_ID,
+        DURALUXE_HISTORIA_PAGE_ID,
+        DURALUXE_MERCADOS_PAGE_ID,
+        DURALUXE_MISION_PAGE_ID,
+        DURALUXE_PORQUE_PAGE_ID,
+        DURALUXE_SOPORTE_PAGE_ID,
+        DURALUXE_SOPORTE_CATALOGO_PAGE_ID,
+    ];
 }
-// Hook the widget initiation and run our function
-add_action( 'widgets_init', 'add_widget_support' );
+
+function pages_in_acabados_section( $arg = '' ): array
+{
+    return [
+        DURALUXE_ACABADOS_PAGE_ID,
+        DURALUXE_ACABADOS_BRILLANTE_PAGE_ID,
+        DURALUXE_ACABADOS_CANVAS_PAGE_ID,
+        DURALUXE_ACABADOS_CEPILLADO_PAGE_ID,
+        DURALUXE_ACABADOS_GLOW_PAGE_ID,
+        DURALUXE_ACABADOS_ICETOUCH_PAGE_ID,
+        DURALUXE_ACABADOS_MATE_PAGE_ID,
+        DURALUXE_ACABADOS_SALTLAKE_PAGE_ID,
+        DURALUXE_ACABADOS_SATINADO_PAGE_ID,
+        DURALUXE_ACABADOS_WALLSKY_PAGE_ID,
+    ];
+}
+
+function pages_in_soporte_section( $arg = '' ): array
+{
+    return [
+        DURALUXE_SOPORTE_PAGE_ID,
+        DURALUXE_SOPORTE_CATALOGO_PAGE_ID,
+    ];
+}
