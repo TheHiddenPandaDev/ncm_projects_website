@@ -1,0 +1,100 @@
+2024-01-28T22:13:49+00:00 CRITICAL Uncaught Error: Undefined constant "SOLUCIONES_PAGE_ID" in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php:50
+Stack trace:
+#0 /var/www/html/ncm/wp-includes/template.php(792): require()
+#1 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', false, Array)
+#2 /var/www/html/ncm/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/ncm/wp-content/themes/goya/inc/frontend/header.php(529): get_template_part('inc/templates/h...')
+#4 /var/www/html/ncm/wp-includes/class-wp-hook.php(324): goya_header('')
+#5 /var/www/html/ncm/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/ncm/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/ncm/wp-content/themes/goya/header.php(83): do_action('goya_header')
+#8 /var/www/html/ncm/wp-includes/template.php(790): require_once('/var/www/html/n...')
+#9 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', true, Array)
+#10 /var/www/html/ncm/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/ncm/wp-content/themes/goya/page.php(60): get_header()
+#12 /var/www/html/ncm/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#13 /var/www/html/ncm/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#14 /var/www/html/ncm/index.php(17): require('/var/www/html/n...')
+#15 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php on line 50
+
+2024-01-28T22:14:13+00:00 CRITICAL Uncaught Error: Undefined constant "SOLUCIONES_PAGE_ID" in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php:52
+Stack trace:
+#0 /var/www/html/ncm/wp-includes/template.php(792): require()
+#1 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', false, Array)
+#2 /var/www/html/ncm/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/ncm/wp-content/themes/goya/inc/frontend/header.php(529): get_template_part('inc/templates/h...')
+#4 /var/www/html/ncm/wp-includes/class-wp-hook.php(324): goya_header('')
+#5 /var/www/html/ncm/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/ncm/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/ncm/wp-content/themes/goya/header.php(83): do_action('goya_header')
+#8 /var/www/html/ncm/wp-includes/template.php(790): require_once('/var/www/html/n...')
+#9 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', true, Array)
+#10 /var/www/html/ncm/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/ncm/wp-content/themes/goya/page.php(60): get_header()
+#12 /var/www/html/ncm/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#13 /var/www/html/ncm/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#14 /var/www/html/ncm/index.php(17): require('/var/www/html/n...')
+#15 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php on line 52
+
+2024-01-28T22:16:28+00:00 CRITICAL Uncaught Error: Undefined constant "SOLUCIONES_PAGE_ID" in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php:55
+Stack trace:
+#0 /var/www/html/ncm/wp-includes/template.php(792): require()
+#1 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', false, Array)
+#2 /var/www/html/ncm/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/ncm/wp-content/themes/goya/inc/frontend/header.php(529): get_template_part('inc/templates/h...')
+#4 /var/www/html/ncm/wp-includes/class-wp-hook.php(324): goya_header('')
+#5 /var/www/html/ncm/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/ncm/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/ncm/wp-content/themes/goya/header.php(83): do_action('goya_header')
+#8 /var/www/html/ncm/wp-includes/template.php(790): require_once('/var/www/html/n...')
+#9 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', true, Array)
+#10 /var/www/html/ncm/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/ncm/wp-content/themes/goya/page.php(60): get_header()
+#12 /var/www/html/ncm/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#13 /var/www/html/ncm/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#14 /var/www/html/ncm/index.php(17): require('/var/www/html/n...')
+#15 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php on line 55
+
+2024-01-28T22:17:37+00:00 CRITICAL Uncaught Error: Undefined constant "SOLUCIONES_PAGE_ID" in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php:57
+Stack trace:
+#0 /var/www/html/ncm/wp-includes/template.php(792): require()
+#1 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', false, Array)
+#2 /var/www/html/ncm/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/ncm/wp-content/themes/goya/inc/frontend/header.php(529): get_template_part('inc/templates/h...')
+#4 /var/www/html/ncm/wp-includes/class-wp-hook.php(324): goya_header('')
+#5 /var/www/html/ncm/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/ncm/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/ncm/wp-content/themes/goya/header.php(83): do_action('goya_header')
+#8 /var/www/html/ncm/wp-includes/template.php(790): require_once('/var/www/html/n...')
+#9 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', true, Array)
+#10 /var/www/html/ncm/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/ncm/wp-content/themes/goya/page.php(60): get_header()
+#12 /var/www/html/ncm/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#13 /var/www/html/ncm/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#14 /var/www/html/ncm/index.php(17): require('/var/www/html/n...')
+#15 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php on line 57
+
+2024-01-28T22:18:37+00:00 CRITICAL Uncaught Error: Undefined constant "SOLUCIONES_PAGE_ID" in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php:52
+Stack trace:
+#0 /var/www/html/ncm/wp-includes/template.php(792): require()
+#1 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', false, Array)
+#2 /var/www/html/ncm/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/ncm/wp-content/themes/goya/inc/frontend/header.php(529): get_template_part('inc/templates/h...')
+#4 /var/www/html/ncm/wp-includes/class-wp-hook.php(324): goya_header('')
+#5 /var/www/html/ncm/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/ncm/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/ncm/wp-content/themes/goya/header.php(83): do_action('goya_header')
+#8 /var/www/html/ncm/wp-includes/template.php(790): require_once('/var/www/html/n...')
+#9 /var/www/html/ncm/wp-includes/template.php(725): load_template('/var/www/html/n...', true, Array)
+#10 /var/www/html/ncm/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/ncm/wp-content/themes/goya/page.php(60): get_header()
+#12 /var/www/html/ncm/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#13 /var/www/html/ncm/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#14 /var/www/html/ncm/index.php(17): require('/var/www/html/n...')
+#15 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/templates/header/header-default.php on line 52
+
