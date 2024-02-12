@@ -13,27 +13,20 @@ $page = '';
     <div class="image-background-homepage"></div>
     <div class="bg-black"></div>
     <div class="container w-container">
-        <h1>¡Con Duraluxe <span class="red-text">puedes hacer mucho más!</span></h1>
-        <p>Decoral System es el líder mundial en tecnología de sublimación para aplicaciones decorativas arquitectónicas, industriales y OEM; Somos una empresa totalmente integrada, que fabrica todos los componentes de nuestro sistema. Debido a esta amplia experiencia, expandirse al mundo de los espacios en blanco para sublimación casi parecía un desarrollo natural.</p>
-
+        <h1>Una primera impresión supone la <br class="hide_br" />diferencia entre vender y no vender</h1>
         <div class="row">
-            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>" class="button-2 w-button white" href="">Visitar NCM-Projects</a></p></div>
-            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Visitar Duraluxe</a></p></div>
+            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>#un-iman-para-el-consumidor" class="button-2 w-button white" href="">PLV/Metracilato</a></p></div>
+            <div class="col-md-6"><p><a href="<?php echo $project_url; ?>duraluxe" class="button-2 w-button" href="">Paneles de aluminio para sublimación</a></p></div>
         </div>
 
-    </div>
-</div>
-<div class="logo-section">
-    <div class="container">
-        <div class="flex-logos-warp"><img src="<?php echo $project_url; ?>ui/assets/images/Nespresso-logo.svg" loading="lazy" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/tupinamba.svg" loading="lazy" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/prenatal.svg" loading="lazy" alt="" class="client-logo smaller"><img src="<?php echo $project_url; ?>ui/assets/images/lacaixa.svg" loading="lazy" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/apli.svg" loading="lazy" alt="" class="client-logo smaller"><img src="<?php echo $project_url; ?>ui/assets/images/hama.svg" loading="lazy" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/indo.svg" loading="lazy" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/yves.svg" loading="lazy" width="230" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/arcos.svg" loading="lazy" width="159" alt="" class="client-logo smaller"><img src="<?php echo $project_url; ?>ui/assets/images/LOGOS-EXTENSION-1.png" loading="lazy" width="159" alt="" class="client-logo bigger"><img src="<?php echo $project_url; ?>ui/assets/images/LOGOS-AMENITIES-NOVOTECNIC-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/LOGOS-BBRAUN-1.png" loading="lazy" width="159" alt="" class="client-logo"><img src="<?php echo $project_url; ?>ui/assets/images/LOGO-MIMETICA-1.png" loading="lazy" width="159" alt="" class="client-logo smaller"></div>
     </div>
 </div>
 <div class="wf-section">
     <div class="w-layout-grid grid">
         <div class="div-block-2">
-            <h1>Un imán para el consumidor</h1>
+            <h1 id="un-iman-para-el-consumidor">Un imán para el consumidor<br/><br/></h1>
         </div>
-        <p id="w-node-ab4266de-76d4-27f6-51e3-6afe35b41595-45532bed" class="paragraph-3">Cada vez es más difícil atraer a nuevos consumidores al punto de venta físico. El público demanda experiencias innovadoras constantemente.<br><br><strong>Una primera impresión supone la diferencia entre vender y no vender.</strong></p><img src="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8.jpg" loading="lazy" id="w-node-_4e80e133-fcf3-c1d4-3e29-1cbdc8d71d3b-45532bed" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 991px) 99vw, 100vw" srcset="<?php echo $project_url; ?>ui/assets/images/Mobiliario---8-p-1080.jpeg 1080w,<?php echo $project_url; ?>ui/assets/images/Mobiliario---8-p-1600.jpeg 1600w,<?php echo $project_url; ?>ui/assets/images/Mobiliario---8.jpg 1900w" alt="" class="background-image"><img src="<?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024.jpg" loading="lazy" id="w-node-a5e401d5-cd20-d00b-5173-d99bbcca6a77-45532bed" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 991px) 99vw, 100vw" srcset="<?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024-p-800.jpeg 800w, <?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024.jpg 1024w" alt="" class="background-image">
+        <p id="w-node-ab4266de-76d4-27f6-51e3-6afe35b41595-45532bed" class="paragraph-3">Cada vez es más difícil atraer a nuevos consumidores al punto de venta físico. El público demanda experiencias innovadoras constantemente.<br><br><strong>Una primera impresión supone la diferencia entre vender y no vender.</strong></p><img src="<?php echo $project_url; ?>ui/assets/images/slider---01.png" loading="lazy" id="w-node-_4e80e133-fcf3-c1d4-3e29-1cbdc8d71d3b-45532bed" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 991px) 99vw, 100vw" srcset="<?php echo $project_url; ?>ui/assets/images/slider---01.png 1080w,<?php echo $project_url; ?>ui/assets/images/slider---01.png 1600w,<?php echo $project_url; ?>ui/assets/images/slider---01.png 1900w" alt="" class="background-image"><img src="<?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024.jpg" loading="lazy" id="w-node-a5e401d5-cd20-d00b-5173-d99bbcca6a77-45532bed" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 991px) 99vw, 100vw" srcset="<?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024-p-500.jpeg 500w, <?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024-p-800.jpeg 800w, <?php echo $project_url; ?>ui/assets/images/89641-4-1024x1024.jpg 1024w" alt="" class="background-image">
         <a href="soluciones" class="link-block w-inline-block">
             <div class="text-block">Nuestras Soluciones</div><img src="<?php echo $project_url; ?>ui/assets/images/Arrow.svg" loading="lazy" alt="" class="image-2">
         </a>
