@@ -1,0 +1,807 @@
+body {
+    position: relative;
+}
+
+/*************/
+/* NEWSLETTER */
+/*************/
+
+body.newsletter {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.newsletter-popup {
+    position: absolute;
+    background: rgb(0 0 0 / 75%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    display: none;
+}
+
+div.modalContent__image {
+    float: left;
+    width: 50%;
+}
+
+div.modalContent__content {
+    padding: 20px;
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+
+@media screen and (max-width: 860px) {
+    div.modalContent__content {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    div.modalContent__content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    div.modalContent__content {
+        width: 100%;
+    }
+}
+
+div.modalContent {
+    background-image: url('../images/1.2.2-580x550-p-500.jpeg');
+    max-width: 90%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 860px) {
+    width: 80%;
+}
+
+div.content__emailStep div.field-wrapper {
+    margin-top: 20px;
+}
+
+div.descriptionContainer div.subtitle {
+    margin-top: 20px;
+}
+
+div.descriptionContainer div.subtitle h4 {
+    font-weight: inherit;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+div.modalContent__content label {
+    color: #404040;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+}
+
+div.modalContent__content input[type="text"],
+div.modalContent__content input[type="email"] {
+    background-color: #ffffff;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+    display: inline-block;
+    min-height: 36px;
+    min-width: 50px;
+    padding: 0 0.4em;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.modalContent__content .content__button {
+    margin-bottom: 20px;
+}
+
+div.modalContent__content div.disclaimer {
+    font-size: 12px;
+    text-align: center;
+}
+
+span.close-newsletter-popup {
+    cursor: pointer;
+}
+
+div.modalContent__content .content__button input {
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 36px;
+    letter-spacing: 0.01em;
+    line-height: 36px;
+    margin-right: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    background-color: rgb(17, 17, 17);
+    font-size: 1em;
+    color: rgb(238, 238, 238);
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.newsletter-popup div.clear {
+    clear: both;
+}
+
+/**** END NEWSLETTER ****/
+
+div.header-section div.bg-black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+div.header-section div.content-block{
+    position: relative;
+    z-index: 2;
+}
+
+/*************/
+/* DURALUXE - MAIN SCREEN */
+/*************/
+
+div.duralex-home-gallery .splide {
+    margin-bottom: 0;
+}
+div.duralex-message.wf-section {
+    padding: 20px 70px 20px 70px;
+    color: #fcfcfc;
+    background-color: #e0004de3;
+}
+div.duralex-features {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+div.duralex-features div.features{
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    justify-self: start;
+    align-self: start;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.duralex-features ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+div.duralex-features ul li {
+    margin-right: 20px;
+}
+
+div.duralex-message.wf-section p {
+    color: #fcfcfc;
+    max-width: initial;
+}
+
+div.homepage-markets div.col-md-6{
+    padding: calc(var(--bs-gutter-x) * .5);
+}
+
+div.homepage-markets div.image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+div.homepage-markets div.image div.bg-black {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+div.homepage-markets div.image.fotografia {
+    background-image: url('../images/duraluxe/homepage/fotografia.webp');
+}
+
+div.homepage-markets div.image.senaletica{
+    background-image: url('../images/duraluxe/homepage/senaletica.webp');
+}
+div.homepage-markets div.image.interiorismo{
+    background-image: url('../images/duraluxe/homepage/interiorismo.webp');
+}
+div.homepage-markets div.image.arquitectura_fachadas{
+    background-image: url('../images/duraluxe/homepage/arquitectura_fachadas.webp');
+}
+div.homepage-markets div.image.productos_flexibles{
+    background-image: url('../images/duraluxe/homepage/productos_flexibles.webp');
+}
+div.homepage-markets div.image.protectores_contra_salpicaduras{
+    background-image: url('../images/duraluxe/homepage/protectores_contra_salpicaduras.webp');
+}
+div.homepage-markets div.image.paredes_de_ducha{
+    background-image: url('../images/duraluxe/homepage/paredes_de_ducha.webp');
+}
+
+div.homepage-markets div.image.techos {
+    background-image: url('../images/duraluxe/homepage/techos.webp');
+}
+
+div.homepage-markets div.image div.text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+
+/*************/
+/* DURALUXE - FAQS */
+/*************/
+
+div.duraluxe-faqs-header,
+div.duraluxe-guidelines-header,
+div.duraluxe-catalogue-header,
+div.duraluxe-contact-header,
+div.why
+{
+    background-color: #eff2f3;
+    padding-top: 25vh;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-image: url('../images/duraluxe/faqs/duraluxe_faqs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: #e0004d;
+}
+
+div.duraluxe-contact-header {
+    background-image: url('../images/Fabricacion---3.jpg');
+}
+
+div.duraluxe-why-header {
+    background-image: url('../images/Fabricacion---5.jpg');
+}
+
+div.cover-background {
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+div.duraluxe-history-header {
+    background-image: url('../images/duraluxe/historia/background.png');
+}
+
+div.duraluxe-mission-header {
+    background-image: url('../images/duraluxe/mission/background.png');
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100px;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    outline: 0;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question div.faq-number {
+    width: 130px!important;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #e0004d;
+    font: 50px / 1.2em Barlow, sans-serif;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    font-weight: bold;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question div.faq-text {
+    width: calc(100% - 130px);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding: 36px;
+    color: #e0004d;
+    font: 25px / 1.2em Barlow, sans-serif;
+    font-weight: bold;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-response {
+    padding: 20px 40px 30px;
+    background-color: transparent;
+    color: #00303c !important;
+    font: bold 16px / 1.4em Barlow, sans-serif;
+    display: none;
+}
+
+div.duraluxe-faqs-section div.faq div.faq-question:hover div.faq-number {
+    background-color: #e0004d !important;
+    color: white;
+}
+
+/*************/
+/* DURALUXE - MANUAL DE USO */
+/*************/
+
+div.duraluxe-guidelines-section {
+    position: relative;
+    left: 60px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+    margin: 16px 0 50px calc((100% - 980px) * 0.5);
+}
+
+div.duraluxe-guidelines-section iframe {
+    width: 860px;
+    height: 758px;
+}
+
+/*************/
+/* DURALUXE - CATALOGO */
+/*************/
+
+div.duraluxe-catalogue-section {
+    text-align: center;
+}
+
+div.duraluxe-catalogue-section iframe {
+    width: 985px;
+    height: 497px;
+    position: relative;
+    margin: 0 auto;
+}
+
+div.duraluxe-catalogue-section div.catalogue-link {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+div.duraluxe-catalogue-section div.catalogue-link .button-2 {
+    display: unset;
+    border: 0 !important;
+}
+div.duraluxe-catalogue-section div.catalogue-link .button-2:hover {
+    border: 3px solid #e0004d !important;
+}
+
+@media screen and (max-width: 991px) {
+    div.duraluxe-catalogue-section iframe {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: initial;
+        margin: 0 auto 20px;
+    }
+}
+
+div.duraluxe-contact .w-form-fail,
+div.duraluxe-contact .w-form-done {
+    display: block;
+    margin-top: 20px;
+}
+
+div.duraluxe-contact form#wf-form-Contact-Form div.wants-sample label {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    display: inline;
+}
+
+/*************/
+/* DURALUXE - PORQUE */
+/*************/
+div.duralex-why,
+div.duralex-history,
+div.duralex-mission,
+div.duralex-finishes,
+div.duralex-markets {
+    padding: 70px 53px 0;
+}
+
+div.duralex-why .mt-2rem {
+    margin-top: 2rem;
+}
+div.duralex-why h2 a,
+div.duralex-why h2.coloured {
+    color: #e0004d;
+    text-decoration: underline;
+}
+
+div.duralex-why h2 a:hover {
+    text-decoration: underline;
+}
+
+div.duralex-why h2 a i {
+    color: #00303c;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+div.duralex-why p,
+div.duralex-history p,
+div.duralex-mission p,
+div.duralex-finishes p,
+div.duralex-markets p {
+    max-width: initial;
+}
+
+/*************/
+/* DURALUXE - ACABADOS */
+/*************/
+
+div.duraluxe-finishes-header {
+    position: relative;
+    background-image: url('../images/duraluxe/acabados/background.png');
+}
+
+div.duralex-finishes div.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+div.duralex-finishes div.row div.finish {
+    height: 250px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+    div.duralex-finishes div.row div.finish {
+        width: 100% !important;
+        flex: 100%;
+    }
+}
+
+div.duralex-finishes div.row div.finish div.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e0004d;
+    font-size: 24px;
+    z-index: 2;
+}
+
+@media (min-width: 1200px) {
+    div.duralex-finishes div.row div.finish div.title {
+        font-size: calc(1.275rem + .3vw);
+    }
+}
+
+div.duralex-finishes div.row div.finish div.black-cover {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.40;
+}
+
+div.duralex-finishes div.row div.finish div.cover {
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    height: 100%;
+}
+
+div.duralex-finishes div.row div.finish:hover div.cover {
+    transform: scale(1.2);
+}
+
+.satinado { background-image: url('../images/duraluxe/acabados/satinado.png'); }
+.mate { background-image: url('../images/duraluxe/acabados/mate.png'); }
+.brillante { background-image: url('../images/duraluxe/acabados/brillante.png'); }
+.salt-lake { background-image: url('../images/duraluxe/acabados/salt-lake.png'); }
+.ice-touch { background-image: url('../images/duraluxe/acabados/ice-touch.png'); }
+.glow { background-image: url('../images/duraluxe/acabados/glow.png'); }
+.canvas { background-image: url('../images/duraluxe/acabados/canvas.png'); }
+.wallsky { background-image: url('../images/duraluxe/acabados/wallsky.png'); }
+.cepillado { background-image: url('../images/duraluxe/acabados/satinado.png'); }
+
+/*************/
+/* DURALUXE - MERCADOS */
+/*************/
+
+div.duraluxe-markets-header {
+    position: relative;
+    background-image: url('../images/duraluxe/acabados/background.png');
+}
+
+div.duralex-markets div.gallery {
+    margin-top: 50px;
+}
+
+div.duralex-markets div.gallery h2 {
+    color: #e0004d;
+    margin-bottom: 20px;
+}
+
+.splide {
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .splide {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    div.duralex-markets div.gallery div.title {
+        min-height: 70px;
+    }
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+
+/*************/
+/* DURALUXE - MENU */
+/*************/
+
+div.duraluxe-menu-button {
+    display: none;
+}
+
+a.nav-link.w-nav-link.w--nav-link-open {
+    margin-left: 20px;
+}
+
+a.nav-link.w-nav-link.w--current.w--nav-link-open {
+    color: #FFF;
+}
+
+div.duraluxe-menu,
+div.duraluxe-menu-button
+{
+    background-color: #00303c;
+    color: #FFF;
+    padding: 20px 0;
+    position: relative;
+}
+
+div.duraluxe-menu-button {
+    text-align: right;
+    padding: 18px;
+    font-size: 24px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.duraluxe-menu nav {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+div.duraluxe-menu nav .nav-link.w--current {
+    font-weight: bold;
+}
+
+
+div.duraluxe-menu nav .dropdown span.nav-link{
+   cursor: pointer;
+}
+
+div.duraluxe-menu nav .dropdown span i {
+    margin-left: 5px;
+}
+
+div.duraluxe-menu nav div.sub-menu {
+    position: absolute;
+    bottom: -116px;
+    width: 200px;
+    background-color: #00303c;
+    text-align: left;
+    display: none;
+    z-index: 999;
+}
+
+div.duraluxe-menu nav div.sub-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+div.duraluxe-menu nav div.sub-menu ul li {
+    margin-bottom: 1rem;
+}
+
+div.duraluxe-menu nav div.sub-menu ul li a {
+    text-align: center;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 991px){
+
+    div.duraluxe-menu-button {
+        display: block;
+    }
+
+    div.duraluxe-menu {
+        display: none;
+    }
+
+    div.duraluxe-menu nav {
+        display: block;
+    }
+    div.duraluxe-menu nav .nav-link {
+        margin-bottom: 10px;
+    }
+
+    div.duraluxe-menu nav div.sub-menu {
+        position: initial;
+    }
+
+    div.duraluxe-menu nav div.sub-menu ul li a {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+/* ALTERNATIVE HOME */
+
+div.alternative-home {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+div.alternative-home div.image-background-homepage {
+    background-image: url(https://thehiddenpanda.com/development/ncm/ui/assets/images/Fabricacion---3-p-1080.jpeg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+}
+
+div.alternative-home div.bg-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+div.alternative-home div.container {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 82px;
+}
+
+div.alternative-home div.container p {
+    margin-top: 20px;
+    max-width: initial;
+    color: #FFFFFF;
+}
+
+div.alternative-home div.container .button-2:hover {
+    background-color: #e0004d;
+    border: 3px solid #212529;
+    color: #FFFFFF;
+}
+
+div.alternative-home div.container .button-2.white {
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    color: #212529;
+}
+
+div.alternative-home div.container .button-2.white:hover {
+    border: 3px solid #212529;
+}
+
+@media screen and (max-width: 420px) {
+    .hide_br {
+        display: none;
+    }
+}
