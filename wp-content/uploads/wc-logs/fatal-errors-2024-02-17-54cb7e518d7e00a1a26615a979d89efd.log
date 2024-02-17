@@ -1,0 +1,49 @@
+2024-02-17T20:16:20+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/ncm/wp-content/themes/goya/inc/merlin/class-merlin.php' (include_path='/var/www/html/ncm/wp-content/plugins/kirki/:/var/www/html/ncm/wp-content/plugins/kirki/core:.:/usr/local/lib/php') in /var/www/html/ncm/wp-content/themes/goya/functions.php:123
+Stack trace:
+#0 /var/www/html/ncm/wp-settings.php(611): include()
+#1 /var/www/html/ncm/wp-config.php(96): require_once('/var/www/html/n...')
+#2 /var/www/html/ncm/wp-load.php(50): require_once('/var/www/html/n...')
+#3 /var/www/html/ncm/wp-admin/admin-ajax.php(22): require_once('/var/www/html/n...')
+#4 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/functions.php on line 123
+
+2024-02-17T20:18:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/ncm/wp-content/themes/goya/inc/merlin/class-merlin.php' (include_path='/var/www/html/ncm/wp-content/plugins/kirki/:/var/www/html/ncm/wp-content/plugins/kirki/core:.:/usr/local/lib/php') in /var/www/html/ncm/wp-content/themes/goya/functions.php:123
+Stack trace:
+#0 /var/www/html/ncm/wp-settings.php(611): include()
+#1 /var/www/html/ncm/wp-config.php(96): require_once('/var/www/html/n...')
+#2 /var/www/html/ncm/wp-load.php(50): require_once('/var/www/html/n...')
+#3 /var/www/html/ncm/wp-admin/admin-ajax.php(22): require_once('/var/www/html/n...')
+#4 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/functions.php on line 123
+
+2024-02-17T20:20:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/ncm/wp-content/themes/goya/inc/merlin/class-merlin.php' (include_path='/var/www/html/ncm/wp-content/plugins/kirki/:/var/www/html/ncm/wp-content/plugins/kirki/core:.:/usr/local/lib/php') in /var/www/html/ncm/wp-content/themes/goya/functions.php:123
+Stack trace:
+#0 /var/www/html/ncm/wp-settings.php(611): include()
+#1 /var/www/html/ncm/wp-config.php(96): require_once('/var/www/html/n...')
+#2 /var/www/html/ncm/wp-load.php(50): require_once('/var/www/html/n...')
+#3 /var/www/html/ncm/wp-admin/admin-ajax.php(22): require_once('/var/www/html/n...')
+#4 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/functions.php on line 123
+
+2024-02-17T20:25:26+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/class-tgm-plugin-activation.php' (include_path='/var/www/html/ncm/wp-content/plugins/kirki/:/var/www/html/ncm/wp-content/plugins/kirki/core:.:/usr/local/lib/php') in /var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/plugins.php:2
+Stack trace:
+#0 /var/www/html/ncm/wp-content/themes/goya/functions.php(116): require()
+#1 /var/www/html/ncm/wp-settings.php(611): include('/var/www/html/n...')
+#2 /var/www/html/ncm/wp-config.php(96): require_once('/var/www/html/n...')
+#3 /var/www/html/ncm/wp-load.php(50): require_once('/var/www/html/n...')
+#4 /var/www/html/ncm/wp-admin/admin-ajax.php(22): require_once('/var/www/html/n...')
+#5 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/plugins.php on line 2
+
+2024-02-17T20:26:27+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/class-tgm-plugin-activation.php' (include_path='/var/www/html/ncm/wp-content/plugins/kirki/:/var/www/html/ncm/wp-content/plugins/kirki/core:.:/usr/local/lib/php') in /var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/plugins.php:2
+Stack trace:
+#0 /var/www/html/ncm/wp-content/themes/goya/functions.php(116): require()
+#1 /var/www/html/ncm/wp-settings.php(611): include('/var/www/html/n...')
+#2 /var/www/html/ncm/wp-config.php(96): require_once('/var/www/html/n...')
+#3 /var/www/html/ncm/wp-load.php(50): require_once('/var/www/html/n...')
+#4 /var/www/html/ncm/wp-admin/admin-ajax.php(22): require_once('/var/www/html/n...')
+#5 {main}
+  thrown in /var/www/html/ncm/wp-content/themes/goya/inc/admin/plugins/plugins.php on line 2
+
+2024-02-17T22:31:00+00:00 CRITICAL Cannot redeclare goya_get_myaccount_link() (previously declared in /var/www/html/ncm/wp-content/themes/goya/goya/inc/woocommerce/wc-elements.php:7) CONTEXT: {"error":{"type":64,"file":"\/var\/www\/html\/ncm\/wp-content\/themes\/goya\/goya\/inc\/templates\/header\/header-default.php","line":208},"backtrace":[{"file":"\/var\/www\/html\/ncm\/wp-content\/plugins\/woocommerce\/includes\/class-woocommerce.php","line":325,"function":"critical","class":"WC_Logger","type":"->"},{"function":"log_errors","class":"WooCommerce","type":"->"}]}
+2024-02-17T22:31:02+00:00 CRITICAL Cannot redeclare goya_get_myaccount_link() (previously declared in /var/www/html/ncm/wp-content/themes/goya/goya/inc/woocommerce/wc-elements.php:7) CONTEXT: {"error":{"type":64,"file":"\/var\/www\/html\/ncm\/wp-content\/themes\/goya\/goya\/inc\/templates\/header\/header-default.php","line":208},"backtrace":[{"file":"\/var\/www\/html\/ncm\/wp-content\/plugins\/woocommerce\/includes\/class-woocommerce.php","line":325,"function":"critical","class":"WC_Logger","type":"->"},{"function":"log_errors","class":"WooCommerce","type":"->"}]}
