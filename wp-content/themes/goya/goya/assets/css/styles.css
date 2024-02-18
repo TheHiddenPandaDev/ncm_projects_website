@@ -801,6 +801,10 @@ div.alternative-home div.container {
     padding-bottom: 82px;
 }
 
+div.alternative-home div.container h1 {
+    color: #FFFFFF !important;
+}
+
 div.alternative-home div.container p {
     margin-top: 20px;
     max-width: initial;
@@ -808,19 +812,19 @@ div.alternative-home div.container p {
 }
 
 div.alternative-home div.container .button-2:hover {
-    background-color: #e0004d;
-    border: 3px solid #212529;
-    color: #FFFFFF;
+    background-color: #e0004d !important;
+    border: 3px solid #212529 !important;
+    color: #FFFFFF !important;
 }
 
 div.alternative-home div.container .button-2.white {
-    background-color: #FFFFFF;
-    border: 3px solid #FFFFFF;
-    color: #212529;
+    background-color: #FFFFFF !important;
+    border: 3px solid #FFFFFF !important;;
+    color: #212529 !important;;
 }
 
 div.alternative-home div.container .button-2.white:hover {
-    border: 3px solid #212529;
+    border: 3px solid #212529 !important;;
 }
 
 @media screen and (max-width: 420px) {
@@ -1751,4 +1755,8 @@ p {
     font-size: 19px;
     font-weight: 400;
     line-height: 1.4;
+}
+
+div.soluciones-home a.button-2.w-button{
+    margin-top: 50px;
 }

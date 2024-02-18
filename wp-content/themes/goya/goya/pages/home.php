@@ -30,7 +30,7 @@ get_header();
         </a>
     </div>
 </div>
-<div class="section wf-section">
+<div class="section wf-section soluciones-home">
     <div class="container">
         <div class="centered-content">
             <div class="subheading">nuestros servicios</div>
