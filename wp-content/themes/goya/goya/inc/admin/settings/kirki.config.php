@@ -26,25 +26,6 @@ $goya_animations_list = array(
 	'animation fade'             => esc_html__('Fade', 'goya'),
 );
 
-// Replace bundled Jost with Google version
-$main_font = get_theme_mod( 'main_font', array() );
-$main_font_family = isset($main_font['font-family']) ? $main_font['font-family'] : '';
-
-$second_font = get_theme_mod( 'second_font', array() );
-$second_font_family = isset($second_font['font-family']) ? $second_font['font-family'] : '';
-
-if ($main_font_family == 'Jost, sans-serif') {
-	set_theme_mod( 'main_font' , array(
-		'font-family'    => 'Jost',
-		)
-	);	
-}
-if ($second_font_family == 'Jost, sans-serif') {
-	set_theme_mod( 'second_font' , array(
-		'font-family'    => 'Jost',
-		)
-	);	
-}
 
 // Migrate campaign to new version
 /*$old_campaign = get_theme_mod( 'campaign_bar_content', '' );
@@ -7478,37 +7459,7 @@ if ( class_exists( 'Kirki' ) ) {
 
 				// Main font: Standard + Google Fonts
 
-				Kirki::add_field( 'goya_config', array(
-					'type'     		=> 'typography',
-					'settings' 		=> 'main_font',
-					'label'    	  => esc_html__( 'Main Font', 'goya' ),
-					'description' => esc_html__( 'Default: Jost | 400 | 1.7', 'goya' ),
-					'transport'   => 'auto',
-					'section'  		=> 'fonts',
-					'priority' 		=> 10,
-					'choices' => goya_main_font_choices(),
-					'default'     => array(
-						'font-family'    => 'Jost',
-						'variant'        => 'regular',
-						'line-height'    => '1.7',
-					),
-					'output'      => array(
-						array(
-							'element' => 'body, blockquote cite',
-						),
-						array(
-							'element'  => '.edit-post-visual-editor.editor-styles-wrapper,.wp-block h1,.wp-block h2,.wp-block h3,.wp-block h4,.wp-block h5,.wp-block h6,.editor-post-title__block .editor-post-title__input,.wp-block-quote p,.wp-block-pullquote p,.wp-block-cover .wp-block-cover-text',
-							'context'  => array( 'editor' ),
-						),
-					),
-					'required' => array(
-						array(
-							'setting' => 'main_font_source', 
-							'operator' => '==', 
-							'value' => '1'
-						)
-					),
-				));
+
 
 				// Main font: Adobe Typekit
 
@@ -7570,36 +7521,7 @@ if ( class_exists( 'Kirki' ) ) {
 
 				// Second font: Standard + Google Fonts
 
-				Kirki::add_field( 'goya_config', array(
-					'type'     		=> 'typography',
-					'settings' 		=> 'second_font',
-					'label'    	  => esc_html__( 'Second Font', 'goya' ),
-					'description' => esc_html__( 'Default: Jost | regular', 'goya' ),
-					'transport'   => 'auto',
-					'section'  		=> 'fonts',
-					'priority' 		=> 10,
-					'choices' => goya_second_font_choices(),
-					'default'     => array(
-						'font-family'    => 'Jost',
-						'variant'        => 'regular',
-					),
-					'output'      => array(
-						array(
-							'element'  => '.site-header .main-navigation, .site-header .secondary-navigation, h1, .page-header .page-title, .entry-header .entry-title, .et-shop-title, .product-showcase.product-title-top .product_title, .et-product-detail .summary h1.product_title, .entry-title.blog-title, .post.post-detail .entry-header .entry-title, .post.post-detail .post-featured .entry-header .entry-title, .wp-block-cover .wp-block-cover-text, .wp-block-cover .wp-block-cover__inner-container, .wp-block-cover-image .wp-block-cover-image-text, .wp-block-cover-image h2, .revslider-slide-title, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6, blockquote p, .post-sidebar .widget > h6, .entry-content:not(.wc-tab) h2, .mfp-content h2, .footer h2, .entry-content .wc-tab h2, .entry-content h3, .mfp-content h3, .footer h3, .entry-content h4, .mfp-content h4, .footer h4, .post .post-title h3, .products .product .product-title h3, .et-portfolio .type-portfolio h3, .et-banner-text .et-banner-title, .woocommerce-order-received h2, .woocommerce-MyAccount-content h2, .woocommerce-MyAccount-content h3, .woocommerce-checkout h3, .order_review_heading, .woocommerce-MyAccount-content legend, .et-portfolio .type-portfolio h3, .related h2, .up-sells h2, .cross-sells h2, .cart-collaterals h5, .cart-collaterals h3, .cart-collaterals h2, .related-posts .related-title, .et_post_nav .post_nav_link h3, .comments-container .comments-title, .comment-reply-title, .product-details-accordion .woocommerce-Reviews-title,.et-hovercard .et-pricing-head',
-						),
-						array(
-							'element'  => '.wp-block h1,.wp-block h2,.wp-block h3,.editor-post-title__block .editor-post-title__input,.wp-block-quote p,.wp-block-pullquote p,.wp-block-cover .wp-block-cover-text',
-							'context'  => array( 'editor' ),
-						),
-					),
-					'required' => array(
-						array(
-							'setting' => 'second_font_source', 
-							'operator' => '==', 
-							'value' => '1'
-						)
-					),
-				));
+
 
 				// Second font: Adobe Typekit
 

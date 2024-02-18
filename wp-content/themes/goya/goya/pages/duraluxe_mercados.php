@@ -24,7 +24,7 @@ get_header();
         <p>Recuerde, siempre sin límites.</p>
 
         <div class="row">
-            <div class="gallery photography col-md-6">
+            <div class="gallery2 photography col-md-6">
                 <div class="title"><h2>Fotografia</h2></div>
                 <section id="image-carousel-photography" class="splide">
                     <div class="splide__track">
@@ -39,7 +39,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="gallery signage col-md-6">
+            <div class="gallery2 signage col-md-6">
                 <div class="title"><h2>Señaletica</h2></div>
                 <section id="image-carousel-signage"class="splide">
                     <div class="splide__track">
@@ -56,7 +56,7 @@ get_header();
         </div>
 
         <div class="row">
-            <div class="gallery interior-design col-md-6">
+            <div class="gallery2 interior-design col-md-6">
                 <div class="title"><h2>Interiorismo</h2></div>
                 <section id="image-carousel-interior-design" class="splide">
                     <div class="splide__track">
@@ -71,7 +71,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="gallery architecture-outdoorfacades col-md-6">
+            <div class="gallery2 architecture-outdoorfacades col-md-6">
                 <div class="title"><h2>Arquitectura / Fachadas</h2></div>
                 <section id="image-carousel-architecture-outdoorfacades" class="splide">
                     <div class="splide__track">
@@ -88,7 +88,7 @@ get_header();
         </div>
 
         <div class="row">
-            <div class="gallery bendableproducts col-md-6">
+            <div class="gallery2 bendableproducts col-md-6">
                 <div class="title"><h2>Productos flexibles</h2></div>
                 <section id="image-carousel-bendableproducts" class="splide">
                     <div class="splide__track">
@@ -103,7 +103,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="gallery backsplash col-md-6">
+            <div class="gallery2 backsplash col-md-6">
                 <div class="title"><h2>Protectores contra salpicaduras</h2></div>
                 <section id="image-carousel-backsplash" class="splide">
                     <div class="splide__track">
@@ -120,7 +120,7 @@ get_header();
         </div>
 
         <div class="row">
-            <div class="gallery showerwalls col-md-6">
+            <div class="gallery2 showerwalls col-md-6">
                 <div class="title"><h2>Paredes de ducha</h2></div>
                 <section id="image-carousel-showerwalls" class="splide">
                     <div class="splide__track">
@@ -135,7 +135,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="gallery ceilings col-md-6">
+            <div class="gallery2 ceilings col-md-6">
                 <div class="title"><h2>Techos</h2></div>
                 <section id="image-carousel-ceilings" class="splide">
                     <div class="splide__track">

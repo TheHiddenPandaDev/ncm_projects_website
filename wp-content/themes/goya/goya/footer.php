@@ -34,7 +34,7 @@
 <div class="section-6 wf-section">
     <div class="lets-talk-section">
         <h1 class="final-element">Dinos el qué.<br>Tenemos el cómo.</h1>
-        <a href="mailto:clients@ncm-projects.com?subject=New%20Business" class="button w-button">clients@ncm-projects.com</a>
+        <a href="mailto:clients@ncm-projects.com?subject=New%20Business" class="button-old-web w-button">clients@ncm-projects.com</a>
     </div>
     <div class="sitemap-section">
         <div class="w-layout-grid sitemap-grid">

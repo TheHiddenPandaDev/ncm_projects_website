@@ -8,6 +8,7 @@ get_header();
 ?>
 
 <div class="section-3 wf-section duraluxe-mission-header cover-background header-section">
+    <div class="bg-black"></div>
     <div class="content-block">
         <div class="subheading">nuestra misión</div>
         <h1>¡Conoce quiénes somos!</h1>

@@ -283,7 +283,7 @@ div.duraluxe-catalogue-header,
 div.duraluxe-contact-header,
 div.why
 {
-    background-color: #eff2f3;
+    background-color: #eff2f3 !important;
     padding-top: 25vh;
     padding-left: 44px;
     padding-right: 44px;
@@ -291,7 +291,17 @@ div.why
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
-    color: #e0004d;
+    color: #e0004d !important;
+    position: relative;
+}
+
+div.duraluxe-faqs-header h1,
+div.duraluxe-guidelines-header h1,
+div.duraluxe-catalogue-header h1,
+div.duraluxe-contact-header h1,
+div.why h1,
+div.duraluxe-why-header h1 {
+    color: #fff !important;
 }
 
 div.duraluxe-contact-header {
@@ -306,7 +316,13 @@ div.cover-background {
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
+    position: relative;
 }
+
+div.cover-background h1 {
+    color: #FFFFFF !important;
+}
+
 div.duraluxe-history-header {
     background-image: url('../images/duraluxe/historia/background.png');
 }
@@ -428,9 +444,10 @@ div.duraluxe-catalogue-section div.catalogue-link {
 }
 
 div.duraluxe-catalogue-section div.catalogue-link .button-2 {
-    display: unset;
     border: 0 !important;
+    display: inline-block !important;
 }
+
 div.duraluxe-catalogue-section div.catalogue-link .button-2:hover {
     border: 3px solid #e0004d !important;
 }
@@ -479,7 +496,7 @@ div.duralex-why .mt-2rem {
 }
 div.duralex-why h2 a,
 div.duralex-why h2.coloured {
-    color: #e0004d;
+    color: #e0004d !important;
     text-decoration: underline;
 }
 
@@ -647,11 +664,16 @@ a.nav-link.w-nav-link.w--current.w--nav-link-open {
     color: #FFF;
 }
 
+div.duraluxe-menu a,
+div.duraluxe-menu-button a {
+    color: #FFF !important;
+}
+
 div.duraluxe-menu,
 div.duraluxe-menu-button
 {
     background-color: #00303c;
-    color: #FFF;
+    color: #FFF !important;;
     padding: 20px 0;
     position: relative;
 }
@@ -712,7 +734,8 @@ div.duraluxe-menu nav div.sub-menu ul li {
 
 div.duraluxe-menu nav div.sub-menu ul li a {
     text-align: center;
-    margin-left: 0;
+    margin-left: 20px;
+    display: block;
 }
 
 @media screen and (max-width: 991px){
@@ -1714,8 +1737,18 @@ div.wpforms-container ul li {
     width: 100%;
 }
 
-nput[type="text"], input[type="password"], input[type="number"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="time"], input[type="month"], input[type="week"], input[type="email"], input[type="search"], input[type="tel"], input[type="url"], input.input-text, select, textarea, .wp-block-button__link, .nf-form-cont .nf-form-content .list-select-wrap .nf-field-element > div, .nf-form-cont .nf-form-content input:not([type="button"]), .nf-form-cont .nf-form-content textarea, .nf-form-cont .nf-form-content .submit-wrap .ninja-forms-field, .button, .comment-form-rating, .woocommerce a.ywsl-social, .login a.ywsl-social, input[type=submit], .select2.select2-container--default .select2-selection--single, .woocommerce .woocommerce-MyAccount-content .shop_table .woocommerce-button, .woocommerce .sticky-product-bar .quantity, .woocommerce .et-product-detail .summary .quantity, .et-product-detail .summary .yith-wcwl-add-to-wishlist > div > a, .wishlist_table .add_to_cart.button, .yith-wcwl-add-button a.add_to_wishlist, .yith-wcwl-popup-button a.add_to_wishlist, .wishlist_table a.ask-an-estimate-button, .wishlist-title a.show-title-form, .hidden-title-form a.hide-title-form, .woocommerce .yith-wcwl-wishlist-new button, .wishlist_manage_table a.create-new-wishlist, .wishlist_manage_table button.submit-wishlist-changes, .yith-wcwl-wishlist-search-form button.wishlist-search-button, #side-filters.side-panel .et-close, .header .search-button-group {
+input[type="text"], input[type="password"], input[type="number"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="time"], input[type="month"], input[type="week"], input[type="email"], input[type="search"], input[type="tel"], input[type="url"], input.input-text, select, textarea, .wp-block-button__link, .nf-form-cont .nf-form-content .list-select-wrap .nf-field-element > div, .nf-form-cont .nf-form-content input:not([type="button"]), .nf-form-cont .nf-form-content textarea, .nf-form-cont .nf-form-content .submit-wrap .ninja-forms-field, .button, .comment-form-rating, .woocommerce a.ywsl-social, .login a.ywsl-social, input[type=submit], .select2.select2-container--default .select2-selection--single, .woocommerce .woocommerce-MyAccount-content .shop_table .woocommerce-button, .woocommerce .sticky-product-bar .quantity, .woocommerce .et-product-detail .summary .quantity, .et-product-detail .summary .yith-wcwl-add-to-wishlist > div > a, .wishlist_table .add_to_cart.button, .yith-wcwl-add-button a.add_to_wishlist, .yith-wcwl-popup-button a.add_to_wishlist, .wishlist_table a.ask-an-estimate-button, .wishlist-title a.show-title-form, .hidden-title-form a.hide-title-form, .woocommerce .yith-wcwl-wishlist-new button, .wishlist_manage_table a.create-new-wishlist, .wishlist_manage_table button.submit-wishlist-changes, .yith-wcwl-wishlist-search-form button.wishlist-search-button, #side-filters.side-panel .et-close, .header .search-button-group {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+}
+
+p {
+    max-width: 40ch;
+    color: rgba(0, 48, 60, .73);
+    letter-spacing: -.3px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4;
 }

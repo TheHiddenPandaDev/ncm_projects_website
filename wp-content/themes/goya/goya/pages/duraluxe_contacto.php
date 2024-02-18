@@ -6,7 +6,8 @@ Template Name: Duraluxe - Contacto
 get_header();
 
 ?>
-    <div class="section-3 wf-section duraluxe-contact-header">
+    <div class="section-3 wf-section duraluxe-contact-header cover-background header-section">
+        <div class="bg-black"></div>
         <div class="content-block">
             <h1>Contacto</span></h1>
             <div class="divider"></div>

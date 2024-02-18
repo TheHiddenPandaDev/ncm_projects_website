@@ -81,7 +81,7 @@ strong {
 }
 
 .nav-link.w--current {
-  color: #e0004d;
+  color: #e0004d !important;
 }
 
 .sitemap-section {
@@ -115,13 +115,15 @@ strong {
   margin-bottom: 14px;
   font-size: 17px;
   font-weight: 700;
+  color: #212529;
 }
 
 .sitemap-link {
-  color: #919191;
+  color: #919191 !important;
   margin-bottom: 8px;
   font-weight: 500;
   display: block;
+  text-decoration: underline !important;
 }
 
 .legal-sectkl {
@@ -175,22 +177,27 @@ strong {
   display: flex;
 }
 
+.lets-talk-section h1 {
+  color: #fcfcfc;
+}
+
 .final-element {
   margin-bottom: 0;
 }
 
-.button {
-  background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #fcfcfc;
-  flex: none;
-  padding: 11px 27px;
-  transition: all .2s;
-  display: block;
+.button-old-web {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 2px solid #fcfcfc !important;
+  flex: none !important;
+  padding: 11px 27px !important;
+  transition: all .2s !important;
+  display: block !important;
 }
 
-.button:hover {
-  color: #e0004d;
-  background-color: #fcfcfc;
+.button-old-web:hover {
+  color: #e0004d !important;
+  background-color: #fcfcfc !important;
+  opacity: 1 !important;
 }
 
 .divider {
@@ -323,22 +330,22 @@ strong {
 }
 
 .button-2 {
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: #e0004d;
-  border: 3px solid #e0004d;
-  flex: none;
-  padding: 21px 50px;
-  font-size: 14px;
-  font-weight: 700;
-  transition: all .2s;
-  display: block;
+  text-align: center !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  background-color: #e0004d !important;
+  border: 3px solid #e0004d !important;
+  flex: none !important;
+  padding: 21px 50px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  transition: all .2s !important;
+  display: block !important;
 }
 
 .button-2:hover {
-  color: #e0004d;
-  background-color: rgba(0, 0, 0, 0);
+  color: #e0004d !important;
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .paragraph-3 {

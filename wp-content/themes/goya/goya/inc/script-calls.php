@@ -284,11 +284,7 @@
 			$second_font_family = isset($second_font['font-family']) ? $second_font['font-family'] : '';
 		}
 
-		if ($main_font_family == '' || $main_font_family == 'Jost, sans-serif' || $second_font_family == 'Jost, sans-serif') {
-			return true;
-		} else {
-			return false;
-		}
+
 
 	}
 	

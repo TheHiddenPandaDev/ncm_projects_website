@@ -7,7 +7,8 @@ get_header();
 
 ?>
 
-<div class="section-3 wf-section duraluxe-catalogue-header">
+<div class="section-3 wf-section duraluxe-catalogue-header cover-background header-section">
+    <div class="bg-black"></div>
     <div class="content-block">
         <h1>Catálogo</span></h1>
         <div class="divider"></div>
