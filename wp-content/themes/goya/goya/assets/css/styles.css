@@ -1760,3 +1760,156 @@ p {
 div.soluciones-home a.button-2.w-button{
     margin-top: 50px;
 }
+
+#colophon {
+    display: none;
+}
+
+div.duralex-our-finishes {
+    margin-top: 50px
+}
+
+div.duralex-our-finishes div.finish {
+    background-color: #F2F2F2;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+div.duralex-our-finishes div.finish:hover {
+    background-color: #e4e4e4;
+}
+
+div.duralex-our-finishes div.finish div.finish-content {
+    padding: 0 20px 40px;
+}
+
+div.duralex-our-finishes div.finish div.finish-content img {
+    padding: 20px 0;
+    width: 100%;
+}
+
+div.duralex-our-finishes div.finish div.finish-content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.duralex-our-finishes div.finish div.finish-content div.title {
+    margin-bottom: 10px;
+    color: #e0004d;
+    font-weight: bold;
+}
+
+div.duralex-our-finishes div.finish div.finish-content div.price {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #222222;
+    font-weight: bold;
+}
+
+div.custom-impressions div.col {
+    position: relative;
+    margin-top: 50px;
+}
+
+div.custom-impressions div.col a.button-custom-impressions {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e0004d;
+    padding: 10px 20px;
+    color: #fff !important;
+    width: 65%;
+    text-align: center;
+    display:block;
+    font-weight: bold;
+}
+
+div.custom-impressions div.col a.button-custom-impressions:hover {
+    background-color: #e0004d !important;
+    border: 3px solid #212529 !important;
+    color: #FFFFFF !important;
+}
+
+div.custom-impressions div.col div.cta-upload {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #222222;
+    color: #222222;
+    width: 70%;
+}
+
+div.custom-impressions div.col div.bg {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+
+div.custom-impressions div.col div.bg.formatos {
+    background-image: url('../images/NosProduitsFormats.jpg');
+}
+
+div.custom-impressions div.col div.bg.acabados {
+    background-image: url('../images/NosProduitsFinitions.jpg');
+}
+
+div.custom-impressions div.col div.bg.crear-obra {
+    background-image: url('../images/NosProduits-Encadrements.jpeg');
+}
+
+.nav-item.cta-upload {
+    font-size: 1.3rem;
+    margin: 0;
+    margin-bottom: 0.3rem;
+    padding: 0 1.1rem;
+    position: relative;
+}
+
+div.custom-impressions div.col div.cta-upload:hover {
+    border: 1px solid #e0004d;
+    color: #e0004d;
+}
+
+div.custom-impressions div.col div.cta-upload:hover a {
+    color: #e0004d !important;
+}
+
+.nav-item.cta-upload .upload_link {
+    background-image: url('../images/Upload_black.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    font-size: 1.3rem;
+    padding-left: 40px;
+    width: auto;
+}
+
+.nav-item.cta-upload:hover .upload_link {
+    background-image: url('../images/Upload_coloured.svg');
+    font-size: 1.3rem;
+}
+
+.nav-item.cta-upload .back-to-crop {
+    background-image: url('../images/Stylo_black.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border-left: 1px solid #222222;
+    margin-left: 1rem;
+    margin-right: -30px;
+    padding-left: 1rem;
+    width: 60px;
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav-item.cta-upload:hover .back-to-crop {
+    background-image: url('../images/Stylo_coloured.svg');
+    border-left: 1px solid #e0004d;
+}

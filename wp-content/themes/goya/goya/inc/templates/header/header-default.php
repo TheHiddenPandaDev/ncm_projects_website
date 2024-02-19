@@ -66,6 +66,7 @@ $logo_alt_class =  get_theme_mod( 'site_logo_alt_use', '' );
             <div class="navbar-warp">
                 <a href="<?php echo get_home_url(); ?>" aria-current="page" class="brand w-nav-brand w--current"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.svg" loading="lazy" width="170" alt="" class="image"></a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
+                    <a href="<?php echo get_permalink(IMPRESIONES_A_MEDIDA_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == IMPRESIONES_A_MEDIDA_PAGE_ID) echo 'w--current'; ?>">Impresiones a medida</a>
                     <a href="<?php echo get_permalink(SOLUCIONES_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == SOLUCIONES_PAGE_ID) echo 'w--current'; ?>">Soluciones</a>
                     <a href="<?php echo get_permalink(METODO_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == METODO_PAGE_ID) echo 'w--current'; ?>">Método</a>
                     <a href="<?php echo get_permalink(NOSOTROS_PAGE_ID); ?>" class="nav-link w-nav-link <?php if(get_the_ID() == NOSOTROS_PAGE_ID) echo 'w--current'; ?>">Nosotros</a>
